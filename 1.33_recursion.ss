@@ -1,0 +1,25 @@
+(define (filtered-accumulate combiner null-value term a next b filter)
+  (if (> a b)
+      null-value
+      (if (filter a b)
+          (combiner (term a) (filtered-accumulate combiner null-value term (next a) next b filter))
+          (filtered-accumulate combiner null-value term (next a) next b filter))))
+
+(define (sum a b) (+ a b))
+
+(define (sum-integers a b)
+  (define (identity x) x)
+  (define (inc x) (+ x 1))
+  (filtered-accumulate sum 0 identity a inc b prime?))
+
+(define (prime? n b)
+  (define (smallest-divisor n)
+    (find-divisor n 2))
+  (define (square n) (* n n))
+  (define (find-divisor n test-divisor) 
+    (cond ((> (square test-divisor) n) n)
+      ((divides? test-divisor n) test-divisor)
+      (else (find-divisor n (+ test-divisor 1)))))
+  (define (divides? a b)
+    (= (remainder b a) 0))
+  (= n (smallest-divisor n)))

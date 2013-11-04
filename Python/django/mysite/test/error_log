@@ -1,0 +1,1305 @@
+[Sun Jul 07 23:42:36 2013] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:httpd_t:s0
+[Sun Jul 07 23:42:36 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Sun Jul 07 23:42:36 2013] [notice] Digest: generating secret for digest authentication ...
+[Sun Jul 07 23:42:36 2013] [notice] Digest: done
+[Sun Jul 07 23:42:37 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Sun Jul 07 23:43:09 2013] [error] [client 192.168.49.218] Directory index forbidden by Options directive: /var/www/html/
+[Sun Jul 07 23:43:09 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Sun Jul 07 23:44:38 2013] [error] [client 192.168.49.218] Directory index forbidden by Options directive: /var/www/html/
+[Sun Jul 07 23:44:38 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Sun Jul 07 23:44:38 2013] [error] [client 192.168.49.218] Directory index forbidden by Options directive: /var/www/html/
+[Sun Jul 07 23:44:38 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Sun Jul 07 23:45:36 2013] [error] [client 192.168.49.218] Directory index forbidden by Options directive: /var/www/html/
+[Sun Jul 07 23:45:36 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Sun Jul 07 23:45:36 2013] [error] [client 192.168.49.218] Directory index forbidden by Options directive: /var/www/html/
+[Sun Jul 07 23:45:36 2013] [error] [client 192.168.49.218] Directory index forbidden by Options directive: /var/www/html/
+[Sun Jul 07 23:45:36 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Sun Jul 07 23:45:37 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Sun Jul 07 23:45:45 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/admin
+[Sun Jul 07 23:45:45 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Sun Jul 07 23:45:47 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Sun Jul 07 23:56:17 2013] [error] [client 192.168.49.218] Directory index forbidden by Options directive: /var/www/html/
+[Sun Jul 07 23:56:18 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Sun Jul 07 23:56:18 2013] [error] [client 192.168.49.218] Directory index forbidden by Options directive: /var/www/html/
+[Sun Jul 07 23:56:20 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 00:24:32 2013] [notice] caught SIGTERM, shutting down
+[Mon Jul 08 00:52:04 2013] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:httpd_t:s0
+[Mon Jul 08 00:52:04 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Mon Jul 08 00:52:05 2013] [notice] Digest: generating secret for digest authentication ...
+[Mon Jul 08 00:52:05 2013] [notice] Digest: done
+[Mon Jul 08 00:52:05 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Mon Jul 08 00:52:06 2013] [notice] caught SIGTERM, shutting down
+[Mon Jul 08 00:52:06 2013] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:httpd_t:s0
+[Mon Jul 08 00:52:06 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Mon Jul 08 00:52:06 2013] [notice] Digest: generating secret for digest authentication ...
+[Mon Jul 08 00:52:06 2013] [notice] Digest: done
+[Mon Jul 08 00:52:06 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Mon Jul 08 01:01:18 2013] [notice] caught SIGTERM, shutting down
+[Mon Jul 08 01:02:26 2013] [notice] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Mon Jul 08 01:02:26 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Mon Jul 08 01:02:26 2013] [notice] Digest: generating secret for digest authentication ...
+[Mon Jul 08 01:02:26 2013] [notice] Digest: done
+[Mon Jul 08 01:02:27 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Mon Jul 08 01:03:55 2013] [error] [client 192.168.49.218] Directory index forbidden by Options directive: /var/www/html/
+[Mon Jul 08 01:03:55 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 01:03:56 2013] [error] [client 192.168.49.218] Directory index forbidden by Options directive: /var/www/html/
+[Mon Jul 08 01:03:56 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 01:03:56 2013] [error] [client 192.168.49.218] Directory index forbidden by Options directive: /var/www/html/
+[Mon Jul 08 01:03:56 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 01:04:40 2013] [error] [client 192.168.49.218] Directory index forbidden by Options directive: /var/www/html/
+[Mon Jul 08 01:04:40 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 08:08:58 2013] [error] [client 192.168.49.218] Directory index forbidden by Options directive: /var/www/html/
+[Mon Jul 08 08:08:58 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 08:08:58 2013] [error] [client 192.168.49.218] Directory index forbidden by Options directive: /var/www/html/
+[Mon Jul 08 08:08:58 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 08:51:00 2013] [error] [client 192.168.49.218] Directory index forbidden by Options directive: /var/www/html/
+[Mon Jul 08 08:51:00 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 08:51:00 2013] [error] [client 192.168.49.218] Directory index forbidden by Options directive: /var/www/html/
+[Mon Jul 08 08:51:00 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 08:51:00 2013] [error] [client 192.168.49.218] Directory index forbidden by Options directive: /var/www/html/
+[Mon Jul 08 08:51:00 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 09:45:13 2013] [notice] caught SIGTERM, shutting down
+[Mon Jul 08 09:46:24 2013] [notice] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Mon Jul 08 09:46:24 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Mon Jul 08 09:46:24 2013] [notice] Digest: generating secret for digest authentication ...
+[Mon Jul 08 09:46:24 2013] [notice] Digest: done
+[Mon Jul 08 09:46:25 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Mon Jul 08 10:12:05 2013] [notice] caught SIGTERM, shutting down
+[Mon Jul 08 10:13:11 2013] [notice] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Mon Jul 08 10:13:11 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Mon Jul 08 10:13:11 2013] [notice] Digest: generating secret for digest authentication ...
+[Mon Jul 08 10:13:11 2013] [notice] Digest: done
+[Mon Jul 08 10:13:11 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Mon Jul 08 10:33:13 2013] [error] [client 192.168.49.218] Directory index forbidden by Options directive: /var/www/html/
+[Mon Jul 08 10:33:13 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 10:33:13 2013] [error] [client 192.168.49.218] Directory index forbidden by Options directive: /var/www/html/
+[Mon Jul 08 10:33:13 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 10:33:13 2013] [error] [client 192.168.49.218] Directory index forbidden by Options directive: /var/www/html/
+[Mon Jul 08 10:33:13 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 10:33:13 2013] [error] [client 192.168.49.218] Directory index forbidden by Options directive: /var/www/html/
+[Mon Jul 08 10:33:14 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 10:33:18 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/tst
+[Mon Jul 08 10:33:18 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 10:33:23 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/tst
+[Mon Jul 08 10:33:23 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 10:33:25 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/test
+[Mon Jul 08 10:33:25 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 10:33:42 2013] [notice] caught SIGTERM, shutting down
+[Mon Jul 08 10:33:43 2013] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:httpd_t:s0
+[Mon Jul 08 10:33:43 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Mon Jul 08 10:33:43 2013] [notice] Digest: generating secret for digest authentication ...
+[Mon Jul 08 10:33:43 2013] [notice] Digest: done
+[Mon Jul 08 10:33:43 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Mon Jul 08 10:33:44 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2776, process='', application='220.250.64.20|/test'): Failed to parse WSGI script file '/var/www/main.py'.
+[Mon Jul 08 10:33:44 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2776): Exception occurred processing WSGI script '/var/www/main.py'.
+[Mon Jul 08 10:33:44 2013] [error] [client 192.168.49.218]   File "/var/www/main.py", line 14
+[Mon Jul 08 10:33:44 2013] [error] [client 192.168.49.218]      def GET(self):
+[Mon Jul 08 10:33:44 2013] [error] [client 192.168.49.218]        ^
+[Mon Jul 08 10:33:44 2013] [error] [client 192.168.49.218]  IndentationError: expected an indented block
+[Mon Jul 08 10:33:44 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 10:33:45 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2773, process='', application='220.250.64.20|/test'): Failed to parse WSGI script file '/var/www/main.py'.
+[Mon Jul 08 10:33:45 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2773): Exception occurred processing WSGI script '/var/www/main.py'.
+[Mon Jul 08 10:33:45 2013] [error] [client 192.168.49.218]   File "/var/www/main.py", line 14
+[Mon Jul 08 10:33:45 2013] [error] [client 192.168.49.218]      def GET(self):
+[Mon Jul 08 10:33:45 2013] [error] [client 192.168.49.218]        ^
+[Mon Jul 08 10:33:45 2013] [error] [client 192.168.49.218]  IndentationError: expected an indented block
+[Mon Jul 08 10:33:45 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 10:33:46 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2774, process='', application='220.250.64.20|/test'): Failed to parse WSGI script file '/var/www/main.py'.
+[Mon Jul 08 10:33:46 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2774): Exception occurred processing WSGI script '/var/www/main.py'.
+[Mon Jul 08 10:33:46 2013] [error] [client 192.168.49.218]   File "/var/www/main.py", line 14
+[Mon Jul 08 10:33:46 2013] [error] [client 192.168.49.218]      def GET(self):
+[Mon Jul 08 10:33:46 2013] [error] [client 192.168.49.218]        ^
+[Mon Jul 08 10:33:46 2013] [error] [client 192.168.49.218]  IndentationError: expected an indented block
+[Mon Jul 08 10:33:46 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 10:33:46 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2779, process='', application='220.250.64.20|/test'): Failed to parse WSGI script file '/var/www/main.py'.
+[Mon Jul 08 10:33:46 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2779): Exception occurred processing WSGI script '/var/www/main.py'.
+[Mon Jul 08 10:33:46 2013] [error] [client 192.168.49.218]   File "/var/www/main.py", line 14
+[Mon Jul 08 10:33:46 2013] [error] [client 192.168.49.218]      def GET(self):
+[Mon Jul 08 10:33:46 2013] [error] [client 192.168.49.218]        ^
+[Mon Jul 08 10:33:46 2013] [error] [client 192.168.49.218]  IndentationError: expected an indented block
+[Mon Jul 08 10:33:46 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 10:33:46 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2776, process='', application='220.250.64.20|/test'): Failed to parse WSGI script file '/var/www/main.py'.
+[Mon Jul 08 10:33:46 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2776): Exception occurred processing WSGI script '/var/www/main.py'.
+[Mon Jul 08 10:33:46 2013] [error] [client 192.168.49.218]   File "/var/www/main.py", line 14
+[Mon Jul 08 10:33:46 2013] [error] [client 192.168.49.218]      def GET(self):
+[Mon Jul 08 10:33:46 2013] [error] [client 192.168.49.218]        ^
+[Mon Jul 08 10:33:46 2013] [error] [client 192.168.49.218]  IndentationError: expected an indented block
+[Mon Jul 08 10:33:46 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 10:33:47 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2773, process='', application='220.250.64.20|/test'): Failed to parse WSGI script file '/var/www/main.py'.
+[Mon Jul 08 10:33:47 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2773): Exception occurred processing WSGI script '/var/www/main.py'.
+[Mon Jul 08 10:33:47 2013] [error] [client 192.168.49.218]   File "/var/www/main.py", line 14
+[Mon Jul 08 10:33:47 2013] [error] [client 192.168.49.218]      def GET(self):
+[Mon Jul 08 10:33:47 2013] [error] [client 192.168.49.218]        ^
+[Mon Jul 08 10:33:47 2013] [error] [client 192.168.49.218]  IndentationError: expected an indented block
+[Mon Jul 08 10:33:47 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 10:33:47 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2774, process='', application='220.250.64.20|/test'): Failed to parse WSGI script file '/var/www/main.py'.
+[Mon Jul 08 10:33:47 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2774): Exception occurred processing WSGI script '/var/www/main.py'.
+[Mon Jul 08 10:33:47 2013] [error] [client 192.168.49.218]   File "/var/www/main.py", line 14
+[Mon Jul 08 10:33:47 2013] [error] [client 192.168.49.218]      def GET(self):
+[Mon Jul 08 10:33:47 2013] [error] [client 192.168.49.218]        ^
+[Mon Jul 08 10:33:47 2013] [error] [client 192.168.49.218]  IndentationError: expected an indented block
+[Mon Jul 08 10:33:47 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 10:33:47 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2779, process='', application='220.250.64.20|/test'): Failed to parse WSGI script file '/var/www/main.py'.
+[Mon Jul 08 10:33:47 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2779): Exception occurred processing WSGI script '/var/www/main.py'.
+[Mon Jul 08 10:33:47 2013] [error] [client 192.168.49.218]   File "/var/www/main.py", line 14
+[Mon Jul 08 10:33:47 2013] [error] [client 192.168.49.218]      def GET(self):
+[Mon Jul 08 10:33:47 2013] [error] [client 192.168.49.218]        ^
+[Mon Jul 08 10:33:47 2013] [error] [client 192.168.49.218]  IndentationError: expected an indented block
+[Mon Jul 08 10:33:47 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 10:33:52 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 10:33:58 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 10:34:04 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 10:34:05 2013] [error] [client 192.168.49.218] Directory index forbidden by Options directive: /var/www/html/
+[Mon Jul 08 10:34:05 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 10:34:05 2013] [error] [client 192.168.49.218] Directory index forbidden by Options directive: /var/www/html/
+[Mon Jul 08 10:34:06 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 10:34:08 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2778, process='', application='220.250.64.20|/test'): Failed to parse WSGI script file '/var/www/main.py'.
+[Mon Jul 08 10:34:08 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2778): Exception occurred processing WSGI script '/var/www/main.py'.
+[Mon Jul 08 10:34:08 2013] [error] [client 192.168.49.218]   File "/var/www/main.py", line 14
+[Mon Jul 08 10:34:08 2013] [error] [client 192.168.49.218]      def GET(self):
+[Mon Jul 08 10:34:08 2013] [error] [client 192.168.49.218]        ^
+[Mon Jul 08 10:34:08 2013] [error] [client 192.168.49.218]  IndentationError: expected an indented block
+[Mon Jul 08 10:34:08 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 10:35:19 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2779, process='', application='220.250.64.20|/test'): Failed to parse WSGI script file '/var/www/main.py'.
+[Mon Jul 08 10:35:19 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2779): Exception occurred processing WSGI script '/var/www/main.py'.
+[Mon Jul 08 10:35:19 2013] [error] [client 192.168.49.218]   File "/var/www/main.py", line 14
+[Mon Jul 08 10:35:19 2013] [error] [client 192.168.49.218]      def GET(self):
+[Mon Jul 08 10:35:19 2013] [error] [client 192.168.49.218]        ^
+[Mon Jul 08 10:35:19 2013] [error] [client 192.168.49.218]  IndentationError: expected an indented block
+[Mon Jul 08 10:35:19 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 10:35:19 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2776, process='', application='220.250.64.20|/test'): Failed to parse WSGI script file '/var/www/main.py'.
+[Mon Jul 08 10:35:19 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2776): Exception occurred processing WSGI script '/var/www/main.py'.
+[Mon Jul 08 10:35:19 2013] [error] [client 192.168.49.218]   File "/var/www/main.py", line 14
+[Mon Jul 08 10:35:19 2013] [error] [client 192.168.49.218]      def GET(self):
+[Mon Jul 08 10:35:19 2013] [error] [client 192.168.49.218]        ^
+[Mon Jul 08 10:35:19 2013] [error] [client 192.168.49.218]  IndentationError: expected an indented block
+[Mon Jul 08 10:35:19 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 10:35:22 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2773, process='', application='220.250.64.20|/test'): Failed to parse WSGI script file '/var/www/main.py'.
+[Mon Jul 08 10:35:22 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2773): Exception occurred processing WSGI script '/var/www/main.py'.
+[Mon Jul 08 10:35:22 2013] [error] [client 192.168.49.218]   File "/var/www/main.py", line 14
+[Mon Jul 08 10:35:22 2013] [error] [client 192.168.49.218]      def GET(self):
+[Mon Jul 08 10:35:22 2013] [error] [client 192.168.49.218]        ^
+[Mon Jul 08 10:35:22 2013] [error] [client 192.168.49.218]  IndentationError: expected an indented block
+[Mon Jul 08 10:35:22 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 10:37:03 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/tests
+[Mon Jul 08 10:37:03 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 10:37:05 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2779, process='', application='220.250.64.20|/test'): Failed to parse WSGI script file '/var/www/main.py'.
+[Mon Jul 08 10:37:05 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2779): Exception occurred processing WSGI script '/var/www/main.py'.
+[Mon Jul 08 10:37:05 2013] [error] [client 192.168.49.218]   File "/var/www/main.py", line 14
+[Mon Jul 08 10:37:05 2013] [error] [client 192.168.49.218]      def GET(self):
+[Mon Jul 08 10:37:05 2013] [error] [client 192.168.49.218]        ^
+[Mon Jul 08 10:37:05 2013] [error] [client 192.168.49.218]  IndentationError: expected an indented block
+[Mon Jul 08 10:37:05 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 10:38:01 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2776, process='', application='220.250.64.20|/test'): Failed to parse WSGI script file '/var/www/main.py'.
+[Mon Jul 08 10:38:01 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2776): Exception occurred processing WSGI script '/var/www/main.py'.
+[Mon Jul 08 10:38:01 2013] [error] [client 192.168.49.218]   File "/var/www/main.py", line 14
+[Mon Jul 08 10:38:01 2013] [error] [client 192.168.49.218]      def GET(self):
+[Mon Jul 08 10:38:01 2013] [error] [client 192.168.49.218]        ^
+[Mon Jul 08 10:38:01 2013] [error] [client 192.168.49.218]  IndentationError: expected an indented block
+[Mon Jul 08 10:38:02 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 10:39:36 2013] [notice] caught SIGTERM, shutting down
+[Mon Jul 08 10:39:36 2013] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:httpd_t:s0
+[Mon Jul 08 10:39:36 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Mon Jul 08 10:39:37 2013] [warn] module wsgi_module is already loaded, skipping
+[Mon Jul 08 10:39:37 2013] [notice] Digest: generating secret for digest authentication ...
+[Mon Jul 08 10:39:37 2013] [notice] Digest: done
+[Mon Jul 08 10:39:37 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Mon Jul 08 10:39:40 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2803, process='', application='220.250.64.20|/test'): Failed to parse WSGI script file '/var/www/main.py'.
+[Mon Jul 08 10:39:40 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2803): Exception occurred processing WSGI script '/var/www/main.py'.
+[Mon Jul 08 10:39:40 2013] [error] [client 192.168.49.218]   File "/var/www/main.py", line 14
+[Mon Jul 08 10:39:40 2013] [error] [client 192.168.49.218]      def GET(self):
+[Mon Jul 08 10:39:40 2013] [error] [client 192.168.49.218]        ^
+[Mon Jul 08 10:39:40 2013] [error] [client 192.168.49.218]  IndentationError: expected an indented block
+[Mon Jul 08 10:39:40 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 10:39:41 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2806, process='', application='220.250.64.20|/test'): Failed to parse WSGI script file '/var/www/main.py'.
+[Mon Jul 08 10:39:41 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2806): Exception occurred processing WSGI script '/var/www/main.py'.
+[Mon Jul 08 10:39:41 2013] [error] [client 192.168.49.218]   File "/var/www/main.py", line 14
+[Mon Jul 08 10:39:41 2013] [error] [client 192.168.49.218]      def GET(self):
+[Mon Jul 08 10:39:41 2013] [error] [client 192.168.49.218]        ^
+[Mon Jul 08 10:39:41 2013] [error] [client 192.168.49.218]  IndentationError: expected an indented block
+[Mon Jul 08 10:39:41 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 10:39:41 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2808, process='', application='220.250.64.20|/test'): Failed to parse WSGI script file '/var/www/main.py'.
+[Mon Jul 08 10:39:41 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2808): Exception occurred processing WSGI script '/var/www/main.py'.
+[Mon Jul 08 10:39:41 2013] [error] [client 192.168.49.218]   File "/var/www/main.py", line 14
+[Mon Jul 08 10:39:41 2013] [error] [client 192.168.49.218]      def GET(self):
+[Mon Jul 08 10:39:41 2013] [error] [client 192.168.49.218]        ^
+[Mon Jul 08 10:39:41 2013] [error] [client 192.168.49.218]  IndentationError: expected an indented block
+[Mon Jul 08 10:39:41 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 10:39:41 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2804, process='', application='220.250.64.20|/test'): Failed to parse WSGI script file '/var/www/main.py'.
+[Mon Jul 08 10:39:41 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2804): Exception occurred processing WSGI script '/var/www/main.py'.
+[Mon Jul 08 10:39:41 2013] [error] [client 192.168.49.218]   File "/var/www/main.py", line 14
+[Mon Jul 08 10:39:41 2013] [error] [client 192.168.49.218]      def GET(self):
+[Mon Jul 08 10:39:41 2013] [error] [client 192.168.49.218]        ^
+[Mon Jul 08 10:39:41 2013] [error] [client 192.168.49.218]  IndentationError: expected an indented block
+[Mon Jul 08 10:39:41 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 10:39:42 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2803, process='', application='220.250.64.20|/test'): Failed to parse WSGI script file '/var/www/main.py'.
+[Mon Jul 08 10:39:42 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2803): Exception occurred processing WSGI script '/var/www/main.py'.
+[Mon Jul 08 10:39:42 2013] [error] [client 192.168.49.218]   File "/var/www/main.py", line 14
+[Mon Jul 08 10:39:42 2013] [error] [client 192.168.49.218]      def GET(self):
+[Mon Jul 08 10:39:42 2013] [error] [client 192.168.49.218]        ^
+[Mon Jul 08 10:39:42 2013] [error] [client 192.168.49.218]  IndentationError: expected an indented block
+[Mon Jul 08 10:39:42 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 10:39:42 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2806, process='', application='220.250.64.20|/test'): Failed to parse WSGI script file '/var/www/main.py'.
+[Mon Jul 08 10:39:42 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2806): Exception occurred processing WSGI script '/var/www/main.py'.
+[Mon Jul 08 10:39:42 2013] [error] [client 192.168.49.218]   File "/var/www/main.py", line 14
+[Mon Jul 08 10:39:42 2013] [error] [client 192.168.49.218]      def GET(self):
+[Mon Jul 08 10:39:42 2013] [error] [client 192.168.49.218]        ^
+[Mon Jul 08 10:39:42 2013] [error] [client 192.168.49.218]  IndentationError: expected an indented block
+[Mon Jul 08 10:39:42 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 10:39:42 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2808, process='', application='220.250.64.20|/test'): Failed to parse WSGI script file '/var/www/main.py'.
+[Mon Jul 08 10:39:42 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2808): Exception occurred processing WSGI script '/var/www/main.py'.
+[Mon Jul 08 10:39:42 2013] [error] [client 192.168.49.218]   File "/var/www/main.py", line 14
+[Mon Jul 08 10:39:42 2013] [error] [client 192.168.49.218]      def GET(self):
+[Mon Jul 08 10:39:42 2013] [error] [client 192.168.49.218]        ^
+[Mon Jul 08 10:39:42 2013] [error] [client 192.168.49.218]  IndentationError: expected an indented block
+[Mon Jul 08 10:39:42 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 10:45:10 2013] [notice] caught SIGTERM, shutting down
+[Mon Jul 08 10:45:11 2013] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:httpd_t:s0
+[Mon Jul 08 10:45:11 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Mon Jul 08 10:45:11 2013] [warn] module wsgi_module is already loaded, skipping
+[Mon Jul 08 10:45:11 2013] [notice] Digest: generating secret for digest authentication ...
+[Mon Jul 08 10:45:11 2013] [notice] Digest: done
+[Mon Jul 08 10:45:11 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Mon Jul 08 10:45:17 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2839): Target WSGI script '/var/www/main.py' cannot be loaded as Python module.
+[Mon Jul 08 10:45:17 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2839): Exception occurred processing WSGI script '/var/www/main.py'.
+[Mon Jul 08 10:45:17 2013] [error] [client 192.168.49.218] Traceback (most recent call last):
+[Mon Jul 08 10:45:17 2013] [error] [client 192.168.49.218]   File "/var/www/main.py", line 7, in <module>
+[Mon Jul 08 10:45:17 2013] [error] [client 192.168.49.218]     import web
+[Mon Jul 08 10:45:17 2013] [error] [client 192.168.49.218] ImportError: No module named web
+[Mon Jul 08 10:45:17 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 10:45:18 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2841): Target WSGI script '/var/www/main.py' cannot be loaded as Python module.
+[Mon Jul 08 10:45:18 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2841): Exception occurred processing WSGI script '/var/www/main.py'.
+[Mon Jul 08 10:45:18 2013] [error] [client 192.168.49.218] Traceback (most recent call last):
+[Mon Jul 08 10:45:18 2013] [error] [client 192.168.49.218]   File "/var/www/main.py", line 7, in <module>
+[Mon Jul 08 10:45:18 2013] [error] [client 192.168.49.218]     import web
+[Mon Jul 08 10:45:18 2013] [error] [client 192.168.49.218] ImportError: No module named web
+[Mon Jul 08 10:45:18 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 10:45:18 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2842): Target WSGI script '/var/www/main.py' cannot be loaded as Python module.
+[Mon Jul 08 10:45:18 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2842): Exception occurred processing WSGI script '/var/www/main.py'.
+[Mon Jul 08 10:45:18 2013] [error] [client 192.168.49.218] Traceback (most recent call last):
+[Mon Jul 08 10:45:18 2013] [error] [client 192.168.49.218]   File "/var/www/main.py", line 7, in <module>
+[Mon Jul 08 10:45:18 2013] [error] [client 192.168.49.218]     import web
+[Mon Jul 08 10:45:18 2013] [error] [client 192.168.49.218] ImportError: No module named web
+[Mon Jul 08 10:45:18 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 12:06:52 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2840): Target WSGI script '/var/www/main.py' cannot be loaded as Python module.
+[Mon Jul 08 12:06:52 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2840): Exception occurred processing WSGI script '/var/www/main.py'.
+[Mon Jul 08 12:06:52 2013] [error] [client 192.168.49.218] Traceback (most recent call last):
+[Mon Jul 08 12:06:52 2013] [error] [client 192.168.49.218]   File "/var/www/main.py", line 7, in <module>
+[Mon Jul 08 12:06:52 2013] [error] [client 192.168.49.218]     import web
+[Mon Jul 08 12:06:52 2013] [error] [client 192.168.49.218] ImportError: No module named web
+[Mon Jul 08 12:06:54 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:38:22 2013] [notice] caught SIGTERM, shutting down
+[Mon Jul 08 13:38:28 2013] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:httpd_t:s0
+[Mon Jul 08 13:38:28 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Mon Jul 08 13:38:28 2013] [notice] Digest: generating secret for digest authentication ...
+[Mon Jul 08 13:38:28 2013] [notice] Digest: done
+[Mon Jul 08 13:38:29 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Mon Jul 08 13:38:35 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:38:36 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:38:36 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:38:36 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:38:36 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:38:38 2013] [error] [client 192.168.49.218] Directory index forbidden by Options directive: /var/www/html/
+[Mon Jul 08 13:38:38 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:38:43 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:41:27 2013] [notice] caught SIGTERM, shutting down
+[Mon Jul 08 13:41:28 2013] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:httpd_t:s0
+[Mon Jul 08 13:41:28 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Mon Jul 08 13:41:28 2013] [notice] Digest: generating secret for digest authentication ...
+[Mon Jul 08 13:41:28 2013] [notice] Digest: done
+[Mon Jul 08 13:41:28 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Mon Jul 08 13:41:33 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test denied
+[Mon Jul 08 13:41:33 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:41:34 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test denied
+[Mon Jul 08 13:41:34 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:41:34 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test denied
+[Mon Jul 08 13:41:34 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:41:34 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test denied
+[Mon Jul 08 13:41:34 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:43:56 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test denied
+[Mon Jul 08 13:43:56 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:43:56 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test denied
+[Mon Jul 08 13:43:56 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:43:56 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test denied
+[Mon Jul 08 13:43:57 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:43:57 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test denied
+[Mon Jul 08 13:43:57 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:43:57 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test denied
+[Mon Jul 08 13:43:57 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:43:57 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test denied
+[Mon Jul 08 13:43:57 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:43:58 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test denied
+[Mon Jul 08 13:43:58 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:44:04 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:44:06 2013] [error] [client 192.168.49.218] Directory index forbidden by Options directive: /var/www/html/
+[Mon Jul 08 13:44:06 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:44:09 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test denied
+[Mon Jul 08 13:44:09 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:44:49 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test denied
+[Mon Jul 08 13:44:49 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:44:49 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test denied
+[Mon Jul 08 13:44:49 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:44:50 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test denied
+[Mon Jul 08 13:44:51 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:44:51 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test denied
+[Mon Jul 08 13:44:51 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:45:42 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test denied
+[Mon Jul 08 13:45:42 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:45:42 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test denied
+[Mon Jul 08 13:45:42 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:50:09 2013] [notice] caught SIGTERM, shutting down
+[Mon Jul 08 13:50:10 2013] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:httpd_t:s0
+[Mon Jul 08 13:50:10 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Mon Jul 08 13:50:10 2013] [notice] Digest: generating secret for digest authentication ...
+[Mon Jul 08 13:50:10 2013] [notice] Digest: done
+[Mon Jul 08 13:50:10 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Mon Jul 08 13:50:13 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test denied
+[Mon Jul 08 13:50:13 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:50:14 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test denied
+[Mon Jul 08 13:50:14 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:50:14 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test denied
+[Mon Jul 08 13:50:14 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:50:14 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test denied
+[Mon Jul 08 13:50:14 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:50:15 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test denied
+[Mon Jul 08 13:50:15 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:50:15 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test denied
+[Mon Jul 08 13:50:15 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:50:15 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test denied
+[Mon Jul 08 13:50:15 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:50:16 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test denied
+[Mon Jul 08 13:50:16 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:50:16 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test denied
+[Mon Jul 08 13:50:16 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:54:14 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test/admin denied
+[Mon Jul 08 13:54:14 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:54:15 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test/admin denied
+[Mon Jul 08 13:54:15 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:54:15 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test/admin denied
+[Mon Jul 08 13:54:15 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:54:15 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test/admin denied
+[Mon Jul 08 13:54:15 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:54:15 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test/admin denied
+[Mon Jul 08 13:54:15 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:54:15 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test/admin denied
+[Mon Jul 08 13:54:16 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:54:16 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test/admin denied
+[Mon Jul 08 13:54:16 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:54:16 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test/admin denied
+[Mon Jul 08 13:54:16 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:54:16 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test/admin denied
+[Mon Jul 08 13:54:16 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:54:16 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test/admin denied
+[Mon Jul 08 13:54:16 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:54:16 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test/admin denied
+[Mon Jul 08 13:54:16 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:54:16 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test/admin denied
+[Mon Jul 08 13:54:17 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:54:17 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test/admin denied
+[Mon Jul 08 13:54:17 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:54:17 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test/admin denied
+[Mon Jul 08 13:54:17 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:54:17 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test/admin denied
+[Mon Jul 08 13:54:17 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:54:17 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test/admin denied
+[Mon Jul 08 13:54:17 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:54:18 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test/admin denied
+[Mon Jul 08 13:54:18 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:59:54 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test/admin denied
+[Mon Jul 08 13:59:54 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:59:54 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test/admin denied
+[Mon Jul 08 13:59:55 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:59:55 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test/admin denied
+[Mon Jul 08 13:59:55 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:59:55 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test/admin denied
+[Mon Jul 08 13:59:55 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:59:55 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test/admin denied
+[Mon Jul 08 13:59:55 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:59:58 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test/ denied
+[Mon Jul 08 13:59:58 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:59:59 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test/ denied
+[Mon Jul 08 13:59:59 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:59:59 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test/ denied
+[Mon Jul 08 13:59:59 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 13:59:59 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test/ denied
+[Mon Jul 08 13:59:59 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 14:00:02 2013] [error] [client 192.168.49.218] Directory index forbidden by Options directive: /var/www/html/
+[Mon Jul 08 14:00:02 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 14:00:03 2013] [error] [client 192.168.49.218] Directory index forbidden by Options directive: /var/www/html/
+[Mon Jul 08 14:00:03 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 14:00:03 2013] [error] [client 192.168.49.218] Directory index forbidden by Options directive: /var/www/html/
+[Mon Jul 08 14:00:03 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 14:00:07 2013] [notice] caught SIGTERM, shutting down
+[Mon Jul 08 14:00:07 2013] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:httpd_t:s0
+[Mon Jul 08 14:00:07 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Mon Jul 08 14:00:08 2013] [notice] Digest: generating secret for digest authentication ...
+[Mon Jul 08 14:00:08 2013] [notice] Digest: done
+[Mon Jul 08 14:00:08 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Mon Jul 08 14:00:10 2013] [error] [client 192.168.49.218] Directory index forbidden by Options directive: /var/www/html/
+[Mon Jul 08 14:00:10 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 14:00:10 2013] [error] [client 192.168.49.218] Directory index forbidden by Options directive: /var/www/html/
+[Mon Jul 08 14:00:10 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 14:00:10 2013] [error] [client 192.168.49.218] Directory index forbidden by Options directive: /var/www/html/
+[Mon Jul 08 14:00:10 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 14:00:13 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test denied
+[Mon Jul 08 14:00:13 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 14:00:16 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test/test denied
+[Mon Jul 08 14:00:16 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 14:00:22 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test/ denied
+[Mon Jul 08 14:00:22 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 14:01:23 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test/ denied
+[Mon Jul 08 14:01:23 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 14:01:23 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test/ denied
+[Mon Jul 08 14:01:24 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 14:01:24 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test/ denied
+[Mon Jul 08 14:01:24 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 14:05:42 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test/ denied
+[Mon Jul 08 14:05:42 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/favicon.ico
+[Mon Jul 08 14:11:08 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test/ denied
+[Mon Jul 08 14:20:46 2013] [notice] caught SIGTERM, shutting down
+[Mon Jul 08 14:20:47 2013] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:httpd_t:s0
+[Mon Jul 08 14:20:47 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Mon Jul 08 14:20:47 2013] [notice] Digest: generating secret for digest authentication ...
+[Mon Jul 08 14:20:47 2013] [notice] Digest: done
+[Mon Jul 08 14:20:48 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Mon Jul 08 14:20:51 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test/ denied
+[Mon Jul 08 14:20:51 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test/ denied
+[Mon Jul 08 14:20:51 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test/ denied
+[Mon Jul 08 14:21:13 2013] [error] [client 192.168.49.218] Directory index forbidden by Options directive: /var/www/html/
+[Mon Jul 08 14:22:55 2013] [notice] caught SIGTERM, shutting down
+[Mon Jul 08 14:22:56 2013] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:httpd_t:s0
+[Mon Jul 08 14:22:56 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Mon Jul 08 14:22:57 2013] [notice] Digest: generating secret for digest authentication ...
+[Mon Jul 08 14:22:57 2013] [notice] Digest: done
+[Mon Jul 08 14:22:57 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Mon Jul 08 14:22:58 2013] [error] [client 192.168.49.218] Directory index forbidden by Options directive: /var/www/html/
+[Mon Jul 08 14:22:59 2013] [error] [client 192.168.49.218] Directory index forbidden by Options directive: /var/www/html/
+[Mon Jul 08 14:22:59 2013] [error] [client 192.168.49.218] Directory index forbidden by Options directive: /var/www/html/
+[Mon Jul 08 14:23:00 2013] [error] [client 192.168.49.218] Directory index forbidden by Options directive: /var/www/html/
+[Mon Jul 08 14:23:00 2013] [error] [client 192.168.49.218] Directory index forbidden by Options directive: /var/www/html/
+[Mon Jul 08 14:23:00 2013] [error] [client 192.168.49.218] Directory index forbidden by Options directive: /var/www/html/
+[Mon Jul 08 14:23:00 2013] [error] [client 192.168.49.218] Directory index forbidden by Options directive: /var/www/html/
+[Mon Jul 08 14:26:00 2013] [notice] caught SIGTERM, shutting down
+[Mon Jul 08 14:26:06 2013] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:httpd_t:s0
+[Mon Jul 08 14:26:06 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Mon Jul 08 14:26:06 2013] [notice] Digest: generating secret for digest authentication ...
+[Mon Jul 08 14:26:06 2013] [notice] Digest: done
+[Mon Jul 08 14:26:07 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Mon Jul 08 14:26:12 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test2 denied
+[Mon Jul 08 14:26:27 2013] [error] [client 192.168.49.218] File does not exist: /var/www/html/test3
+[Mon Jul 08 14:26:30 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test2 denied
+[Mon Jul 08 14:32:20 2013] [notice] caught SIGTERM, shutting down
+[Mon Jul 08 14:32:21 2013] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:httpd_t:s0
+[Mon Jul 08 14:32:21 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Mon Jul 08 14:32:21 2013] [notice] Digest: generating secret for digest authentication ...
+[Mon Jul 08 14:32:21 2013] [notice] Digest: done
+[Mon Jul 08 14:32:21 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Mon Jul 08 14:32:24 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test2 denied
+[Mon Jul 08 14:32:24 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test2 denied
+[Mon Jul 08 14:32:25 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test2 denied
+[Mon Jul 08 14:32:30 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test2 denied
+[Mon Jul 08 14:33:36 2013] [notice] caught SIGTERM, shutting down
+[Mon Jul 08 14:33:36 2013] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:httpd_t:s0
+[Mon Jul 08 14:33:36 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Mon Jul 08 14:33:37 2013] [notice] Digest: generating secret for digest authentication ...
+[Mon Jul 08 14:33:37 2013] [notice] Digest: done
+[Mon Jul 08 14:33:37 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Mon Jul 08 14:33:37 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test2 denied
+[Mon Jul 08 14:33:38 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test2 denied
+[Mon Jul 08 14:33:38 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test2 denied
+[Mon Jul 08 14:33:38 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test2 denied
+[Mon Jul 08 14:38:42 2013] [notice] caught SIGTERM, shutting down
+[Mon Jul 08 14:38:42 2013] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:httpd_t:s0
+[Mon Jul 08 14:38:42 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Mon Jul 08 14:38:43 2013] [notice] Digest: generating secret for digest authentication ...
+[Mon Jul 08 14:38:43 2013] [notice] Digest: done
+[Mon Jul 08 14:38:43 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Mon Jul 08 14:39:30 2013] [error] [client 192.168.49.218] mod_wsgi (pid=3658): Exception occurred processing WSGI script '/var/www/mysite/mysite/wsgi.py'.
+[Mon Jul 08 14:39:30 2013] [error] [client 192.168.49.218] Traceback (most recent call last):
+[Mon Jul 08 14:39:30 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/wsgi.py", line 236, in __call__
+[Mon Jul 08 14:39:30 2013] [error] [client 192.168.49.218]     self.load_middleware()
+[Mon Jul 08 14:39:30 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 45, in load_middleware
+[Mon Jul 08 14:39:30 2013] [error] [client 192.168.49.218]     for middleware_path in settings.MIDDLEWARE_CLASSES:
+[Mon Jul 08 14:39:30 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 53, in __getattr__
+[Mon Jul 08 14:39:30 2013] [error] [client 192.168.49.218]     self._setup(name)
+[Mon Jul 08 14:39:30 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 48, in _setup
+[Mon Jul 08 14:39:30 2013] [error] [client 192.168.49.218]     self._wrapped = Settings(settings_module)
+[Mon Jul 08 14:39:30 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 134, in __init__
+[Mon Jul 08 14:39:30 2013] [error] [client 192.168.49.218]     raise ImportError("Could not import settings '%s' (Is it on sys.path?): %s" % (self.SETTINGS_MODULE, e))
+[Mon Jul 08 14:39:30 2013] [error] [client 192.168.49.218] ImportError: Could not import settings 'mysite.settings' (Is it on sys.path?): No module named mysite.settings
+[Mon Jul 08 14:39:32 2013] [error] [client 192.168.49.218] mod_wsgi (pid=3661): Exception occurred processing WSGI script '/var/www/mysite/mysite/wsgi.py'.
+[Mon Jul 08 14:39:32 2013] [error] [client 192.168.49.218] Traceback (most recent call last):
+[Mon Jul 08 14:39:32 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/wsgi.py", line 236, in __call__
+[Mon Jul 08 14:39:32 2013] [error] [client 192.168.49.218]     self.load_middleware()
+[Mon Jul 08 14:39:32 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 45, in load_middleware
+[Mon Jul 08 14:39:32 2013] [error] [client 192.168.49.218]     for middleware_path in settings.MIDDLEWARE_CLASSES:
+[Mon Jul 08 14:39:32 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 53, in __getattr__
+[Mon Jul 08 14:39:32 2013] [error] [client 192.168.49.218]     self._setup(name)
+[Mon Jul 08 14:39:32 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 48, in _setup
+[Mon Jul 08 14:39:32 2013] [error] [client 192.168.49.218]     self._wrapped = Settings(settings_module)
+[Mon Jul 08 14:39:32 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 134, in __init__
+[Mon Jul 08 14:39:32 2013] [error] [client 192.168.49.218]     raise ImportError("Could not import settings '%s' (Is it on sys.path?): %s" % (self.SETTINGS_MODULE, e))
+[Mon Jul 08 14:39:32 2013] [error] [client 192.168.49.218] ImportError: Could not import settings 'mysite.settings' (Is it on sys.path?): No module named mysite.settings
+[Mon Jul 08 14:39:41 2013] [error] [client 192.168.49.218] mod_wsgi (pid=3657): Exception occurred processing WSGI script '/var/www/mysite/mysite/wsgi.py'.
+[Mon Jul 08 14:39:41 2013] [error] [client 192.168.49.218] Traceback (most recent call last):
+[Mon Jul 08 14:39:41 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/wsgi.py", line 236, in __call__
+[Mon Jul 08 14:39:41 2013] [error] [client 192.168.49.218]     self.load_middleware()
+[Mon Jul 08 14:39:41 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 45, in load_middleware
+[Mon Jul 08 14:39:41 2013] [error] [client 192.168.49.218]     for middleware_path in settings.MIDDLEWARE_CLASSES:
+[Mon Jul 08 14:39:41 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 53, in __getattr__
+[Mon Jul 08 14:39:41 2013] [error] [client 192.168.49.218]     self._setup(name)
+[Mon Jul 08 14:39:41 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 48, in _setup
+[Mon Jul 08 14:39:41 2013] [error] [client 192.168.49.218]     self._wrapped = Settings(settings_module)
+[Mon Jul 08 14:39:41 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 134, in __init__
+[Mon Jul 08 14:39:41 2013] [error] [client 192.168.49.218]     raise ImportError("Could not import settings '%s' (Is it on sys.path?): %s" % (self.SETTINGS_MODULE, e))
+[Mon Jul 08 14:39:41 2013] [error] [client 192.168.49.218] ImportError: Could not import settings 'mysite.settings' (Is it on sys.path?): No module named mysite.settings
+[Mon Jul 08 14:41:29 2013] [error] [client 192.168.49.218] mod_wsgi (pid=3659): Exception occurred processing WSGI script '/var/www/mysite/mysite/wsgi.py'.
+[Mon Jul 08 14:41:29 2013] [error] [client 192.168.49.218] Traceback (most recent call last):
+[Mon Jul 08 14:41:29 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/wsgi.py", line 236, in __call__
+[Mon Jul 08 14:41:29 2013] [error] [client 192.168.49.218]     self.load_middleware()
+[Mon Jul 08 14:41:29 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 45, in load_middleware
+[Mon Jul 08 14:41:29 2013] [error] [client 192.168.49.218]     for middleware_path in settings.MIDDLEWARE_CLASSES:
+[Mon Jul 08 14:41:29 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 53, in __getattr__
+[Mon Jul 08 14:41:29 2013] [error] [client 192.168.49.218]     self._setup(name)
+[Mon Jul 08 14:41:29 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 48, in _setup
+[Mon Jul 08 14:41:29 2013] [error] [client 192.168.49.218]     self._wrapped = Settings(settings_module)
+[Mon Jul 08 14:41:29 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 134, in __init__
+[Mon Jul 08 14:41:29 2013] [error] [client 192.168.49.218]     raise ImportError("Could not import settings '%s' (Is it on sys.path?): %s" % (self.SETTINGS_MODULE, e))
+[Mon Jul 08 14:41:29 2013] [error] [client 192.168.49.218] ImportError: Could not import settings 'mysite.settings' (Is it on sys.path?): No module named mysite.settings
+[Mon Jul 08 14:41:30 2013] [error] [client 192.168.49.218] mod_wsgi (pid=3655): Exception occurred processing WSGI script '/var/www/mysite/mysite/wsgi.py'.
+[Mon Jul 08 14:41:30 2013] [error] [client 192.168.49.218] Traceback (most recent call last):
+[Mon Jul 08 14:41:30 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/wsgi.py", line 236, in __call__
+[Mon Jul 08 14:41:30 2013] [error] [client 192.168.49.218]     self.load_middleware()
+[Mon Jul 08 14:41:30 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 45, in load_middleware
+[Mon Jul 08 14:41:30 2013] [error] [client 192.168.49.218]     for middleware_path in settings.MIDDLEWARE_CLASSES:
+[Mon Jul 08 14:41:30 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 53, in __getattr__
+[Mon Jul 08 14:41:30 2013] [error] [client 192.168.49.218]     self._setup(name)
+[Mon Jul 08 14:41:30 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 48, in _setup
+[Mon Jul 08 14:41:30 2013] [error] [client 192.168.49.218]     self._wrapped = Settings(settings_module)
+[Mon Jul 08 14:41:30 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 134, in __init__
+[Mon Jul 08 14:41:30 2013] [error] [client 192.168.49.218]     raise ImportError("Could not import settings '%s' (Is it on sys.path?): %s" % (self.SETTINGS_MODULE, e))
+[Mon Jul 08 14:41:30 2013] [error] [client 192.168.49.218] ImportError: Could not import settings 'mysite.settings' (Is it on sys.path?): No module named mysite.settings
+[Mon Jul 08 15:08:25 2013] [notice] caught SIGTERM, shutting down
+[Mon Jul 08 15:08:26 2013] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:httpd_t:s0
+[Mon Jul 08 15:08:26 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Mon Jul 08 15:08:26 2013] [notice] Digest: generating secret for digest authentication ...
+[Mon Jul 08 15:08:26 2013] [notice] Digest: done
+[Mon Jul 08 15:08:26 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Mon Jul 08 15:08:32 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test2/ denied
+[Mon Jul 08 15:08:33 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test2/ denied
+[Mon Jul 08 15:08:33 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test2/ denied
+[Mon Jul 08 15:08:34 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test2/ denied
+[Mon Jul 08 15:08:38 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test2 denied
+[Mon Jul 08 15:10:11 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test2 denied
+[Mon Jul 08 15:10:11 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test2 denied
+[Mon Jul 08 15:10:11 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test2 denied
+[Mon Jul 08 15:10:51 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test2 denied
+[Mon Jul 08 15:10:53 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test2 denied
+[Mon Jul 08 15:10:56 2013] [notice] caught SIGTERM, shutting down
+[Mon Jul 08 15:10:57 2013] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:httpd_t:s0
+[Mon Jul 08 15:10:57 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Mon Jul 08 15:10:57 2013] [notice] Digest: generating secret for digest authentication ...
+[Mon Jul 08 15:10:57 2013] [notice] Digest: done
+[Mon Jul 08 15:10:58 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Mon Jul 08 15:10:59 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test2 denied
+[Mon Jul 08 15:10:59 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test2 denied
+[Mon Jul 08 15:10:59 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test2 denied
+[Mon Jul 08 15:10:59 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test2 denied
+[Mon Jul 08 15:10:59 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test2 denied
+[Mon Jul 08 15:11:00 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test2 denied
+[Mon Jul 08 15:11:00 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test2 denied
+[Mon Jul 08 15:12:19 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test2 denied
+[Mon Jul 08 15:12:19 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test2 denied
+[Mon Jul 08 15:12:19 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test2 denied
+[Mon Jul 08 15:12:19 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test2 denied
+[Mon Jul 08 15:14:23 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test2 denied
+[Mon Jul 08 15:14:24 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test2 denied
+[Mon Jul 08 15:25:02 2013] [notice] caught SIGTERM, shutting down
+[Mon Jul 08 15:25:03 2013] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:httpd_t:s0
+[Mon Jul 08 15:25:03 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Mon Jul 08 15:25:03 2013] [notice] Digest: generating secret for digest authentication ...
+[Mon Jul 08 15:25:03 2013] [notice] Digest: done
+[Mon Jul 08 15:25:04 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Mon Jul 08 15:25:06 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test2 denied
+[Mon Jul 08 15:25:07 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test2 denied
+[Mon Jul 08 15:25:07 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test2 denied
+[Mon Jul 08 15:25:08 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test2 denied
+[Mon Jul 08 15:25:08 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test2 denied
+[Mon Jul 08 15:26:01 2013] [error] [client 192.168.49.218] mod_wsgi (pid=3936): Exception occurred processing WSGI script '/var/www/mysite/mysite/wsgi.py'.
+[Mon Jul 08 15:26:01 2013] [error] [client 192.168.49.218] Traceback (most recent call last):
+[Mon Jul 08 15:26:01 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/wsgi.py", line 236, in __call__
+[Mon Jul 08 15:26:01 2013] [error] [client 192.168.49.218]     self.load_middleware()
+[Mon Jul 08 15:26:01 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 45, in load_middleware
+[Mon Jul 08 15:26:01 2013] [error] [client 192.168.49.218]     for middleware_path in settings.MIDDLEWARE_CLASSES:
+[Mon Jul 08 15:26:01 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 53, in __getattr__
+[Mon Jul 08 15:26:01 2013] [error] [client 192.168.49.218]     self._setup(name)
+[Mon Jul 08 15:26:01 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 48, in _setup
+[Mon Jul 08 15:26:01 2013] [error] [client 192.168.49.218]     self._wrapped = Settings(settings_module)
+[Mon Jul 08 15:26:01 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 134, in __init__
+[Mon Jul 08 15:26:01 2013] [error] [client 192.168.49.218]     raise ImportError("Could not import settings '%s' (Is it on sys.path?): %s" % (self.SETTINGS_MODULE, e))
+[Mon Jul 08 15:26:01 2013] [error] [client 192.168.49.218] ImportError: Could not import settings 'mysite.settings' (Is it on sys.path?): No module named mysite.settings
+[Mon Jul 08 15:26:02 2013] [error] [client 192.168.49.218] mod_wsgi (pid=3942): Exception occurred processing WSGI script '/var/www/mysite/mysite/wsgi.py'.
+[Mon Jul 08 15:26:02 2013] [error] [client 192.168.49.218] Traceback (most recent call last):
+[Mon Jul 08 15:26:02 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/wsgi.py", line 236, in __call__
+[Mon Jul 08 15:26:02 2013] [error] [client 192.168.49.218]     self.load_middleware()
+[Mon Jul 08 15:26:02 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 45, in load_middleware
+[Mon Jul 08 15:26:02 2013] [error] [client 192.168.49.218]     for middleware_path in settings.MIDDLEWARE_CLASSES:
+[Mon Jul 08 15:26:02 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 53, in __getattr__
+[Mon Jul 08 15:26:02 2013] [error] [client 192.168.49.218]     self._setup(name)
+[Mon Jul 08 15:26:02 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 48, in _setup
+[Mon Jul 08 15:26:02 2013] [error] [client 192.168.49.218]     self._wrapped = Settings(settings_module)
+[Mon Jul 08 15:26:02 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 134, in __init__
+[Mon Jul 08 15:26:02 2013] [error] [client 192.168.49.218]     raise ImportError("Could not import settings '%s' (Is it on sys.path?): %s" % (self.SETTINGS_MODULE, e))
+[Mon Jul 08 15:26:02 2013] [error] [client 192.168.49.218] ImportError: Could not import settings 'mysite.settings' (Is it on sys.path?): No module named mysite.settings
+[Mon Jul 08 15:37:26 2013] [notice] caught SIGTERM, shutting down
+[Mon Jul 08 15:37:27 2013] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:httpd_t:s0
+[Mon Jul 08 15:37:27 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Mon Jul 08 15:37:27 2013] [notice] Digest: generating secret for digest authentication ...
+[Mon Jul 08 15:37:27 2013] [notice] Digest: done
+[Mon Jul 08 15:37:27 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Mon Jul 08 15:37:32 2013] [error] [client 192.168.49.218] mod_wsgi (pid=4033): Exception occurred processing WSGI script '/var/www/mysite/mysite/wsgi.py'.
+[Mon Jul 08 15:37:32 2013] [error] [client 192.168.49.218] Traceback (most recent call last):
+[Mon Jul 08 15:37:32 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/wsgi.py", line 236, in __call__
+[Mon Jul 08 15:37:32 2013] [error] [client 192.168.49.218]     self.load_middleware()
+[Mon Jul 08 15:37:32 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 45, in load_middleware
+[Mon Jul 08 15:37:32 2013] [error] [client 192.168.49.218]     for middleware_path in settings.MIDDLEWARE_CLASSES:
+[Mon Jul 08 15:37:32 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 53, in __getattr__
+[Mon Jul 08 15:37:32 2013] [error] [client 192.168.49.218]     self._setup(name)
+[Mon Jul 08 15:37:32 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 48, in _setup
+[Mon Jul 08 15:37:32 2013] [error] [client 192.168.49.218]     self._wrapped = Settings(settings_module)
+[Mon Jul 08 15:37:32 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 134, in __init__
+[Mon Jul 08 15:37:32 2013] [error] [client 192.168.49.218]     raise ImportError("Could not import settings '%s' (Is it on sys.path?): %s" % (self.SETTINGS_MODULE, e))
+[Mon Jul 08 15:37:32 2013] [error] [client 192.168.49.218] ImportError: Could not import settings 'mysite.settings' (Is it on sys.path?): No module named mysite.settings
+[Mon Jul 08 15:51:19 2013] [notice] caught SIGTERM, shutting down
+[Mon Jul 08 15:52:56 2013] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:httpd_t:s0
+[Mon Jul 08 15:52:56 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Mon Jul 08 15:52:56 2013] [notice] Digest: generating secret for digest authentication ...
+[Mon Jul 08 15:52:56 2013] [notice] Digest: done
+[Mon Jul 08 15:52:56 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Mon Jul 08 15:53:03 2013] [error] [client 192.168.49.218] (13)Permission denied: access to /test2 denied
+[Mon Jul 08 15:53:33 2013] [notice] caught SIGTERM, shutting down
+[Mon Jul 08 15:53:34 2013] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:httpd_t:s0
+[Mon Jul 08 15:53:34 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Mon Jul 08 15:53:35 2013] [notice] Digest: generating secret for digest authentication ...
+[Mon Jul 08 15:53:35 2013] [notice] Digest: done
+[Mon Jul 08 15:53:35 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Mon Jul 08 15:53:39 2013] [error] [client 192.168.49.218] mod_wsgi (pid=4121): Exception occurred processing WSGI script '/var/www/mysite/mysite/wsgi.py'.
+[Mon Jul 08 15:53:39 2013] [error] [client 192.168.49.218] Traceback (most recent call last):
+[Mon Jul 08 15:53:39 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/wsgi.py", line 236, in __call__
+[Mon Jul 08 15:53:39 2013] [error] [client 192.168.49.218]     self.load_middleware()
+[Mon Jul 08 15:53:39 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 45, in load_middleware
+[Mon Jul 08 15:53:39 2013] [error] [client 192.168.49.218]     for middleware_path in settings.MIDDLEWARE_CLASSES:
+[Mon Jul 08 15:53:39 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 53, in __getattr__
+[Mon Jul 08 15:53:39 2013] [error] [client 192.168.49.218]     self._setup(name)
+[Mon Jul 08 15:53:39 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 48, in _setup
+[Mon Jul 08 15:53:39 2013] [error] [client 192.168.49.218]     self._wrapped = Settings(settings_module)
+[Mon Jul 08 15:53:39 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 134, in __init__
+[Mon Jul 08 15:53:39 2013] [error] [client 192.168.49.218]     raise ImportError("Could not import settings '%s' (Is it on sys.path?): %s" % (self.SETTINGS_MODULE, e))
+[Mon Jul 08 15:53:39 2013] [error] [client 192.168.49.218] ImportError: Could not import settings 'mysite.settings' (Is it on sys.path?): No module named mysite.settings
+[Mon Jul 08 15:58:11 2013] [notice] caught SIGTERM, shutting down
+[Mon Jul 08 15:59:20 2013] [notice] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Mon Jul 08 15:59:20 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Mon Jul 08 15:59:20 2013] [notice] Digest: generating secret for digest authentication ...
+[Mon Jul 08 15:59:20 2013] [notice] Digest: done
+[Mon Jul 08 15:59:20 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Mon Jul 08 16:00:10 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2316): Exception occurred processing WSGI script '/var/www/mysite/mysite/wsgi.py'.
+[Mon Jul 08 16:00:10 2013] [error] [client 192.168.49.218] Traceback (most recent call last):
+[Mon Jul 08 16:00:10 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/wsgi.py", line 236, in __call__
+[Mon Jul 08 16:00:10 2013] [error] [client 192.168.49.218]     self.load_middleware()
+[Mon Jul 08 16:00:10 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 45, in load_middleware
+[Mon Jul 08 16:00:10 2013] [error] [client 192.168.49.218]     for middleware_path in settings.MIDDLEWARE_CLASSES:
+[Mon Jul 08 16:00:10 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 53, in __getattr__
+[Mon Jul 08 16:00:10 2013] [error] [client 192.168.49.218]     self._setup(name)
+[Mon Jul 08 16:00:10 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 48, in _setup
+[Mon Jul 08 16:00:10 2013] [error] [client 192.168.49.218]     self._wrapped = Settings(settings_module)
+[Mon Jul 08 16:00:10 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 134, in __init__
+[Mon Jul 08 16:00:10 2013] [error] [client 192.168.49.218]     raise ImportError("Could not import settings '%s' (Is it on sys.path?): %s" % (self.SETTINGS_MODULE, e))
+[Mon Jul 08 16:00:10 2013] [error] [client 192.168.49.218] ImportError: Could not import settings 'mysite.settings' (Is it on sys.path?): No module named mysite.settings
+[Mon Jul 08 16:02:56 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2313): Exception occurred processing WSGI script '/var/www/mysite/mysite/wsgi.py'.
+[Mon Jul 08 16:02:56 2013] [error] [client 192.168.49.218] Traceback (most recent call last):
+[Mon Jul 08 16:02:56 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/wsgi.py", line 236, in __call__
+[Mon Jul 08 16:02:56 2013] [error] [client 192.168.49.218]     self.load_middleware()
+[Mon Jul 08 16:02:56 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 45, in load_middleware
+[Mon Jul 08 16:02:56 2013] [error] [client 192.168.49.218]     for middleware_path in settings.MIDDLEWARE_CLASSES:
+[Mon Jul 08 16:02:56 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 53, in __getattr__
+[Mon Jul 08 16:02:56 2013] [error] [client 192.168.49.218]     self._setup(name)
+[Mon Jul 08 16:02:56 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 48, in _setup
+[Mon Jul 08 16:02:56 2013] [error] [client 192.168.49.218]     self._wrapped = Settings(settings_module)
+[Mon Jul 08 16:02:56 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 134, in __init__
+[Mon Jul 08 16:02:56 2013] [error] [client 192.168.49.218]     raise ImportError("Could not import settings '%s' (Is it on sys.path?): %s" % (self.SETTINGS_MODULE, e))
+[Mon Jul 08 16:02:56 2013] [error] [client 192.168.49.218] ImportError: Could not import settings 'mysite.settings' (Is it on sys.path?): No module named mysite.settings
+[Mon Jul 08 16:08:00 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2317): Exception occurred processing WSGI script '/var/www/mysite/mysite/wsgi.py'.
+[Mon Jul 08 16:08:00 2013] [error] [client 192.168.49.218] Traceback (most recent call last):
+[Mon Jul 08 16:08:00 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/wsgi.py", line 236, in __call__
+[Mon Jul 08 16:08:00 2013] [error] [client 192.168.49.218]     self.load_middleware()
+[Mon Jul 08 16:08:00 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 45, in load_middleware
+[Mon Jul 08 16:08:00 2013] [error] [client 192.168.49.218]     for middleware_path in settings.MIDDLEWARE_CLASSES:
+[Mon Jul 08 16:08:00 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 53, in __getattr__
+[Mon Jul 08 16:08:00 2013] [error] [client 192.168.49.218]     self._setup(name)
+[Mon Jul 08 16:08:00 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 48, in _setup
+[Mon Jul 08 16:08:00 2013] [error] [client 192.168.49.218]     self._wrapped = Settings(settings_module)
+[Mon Jul 08 16:08:00 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 134, in __init__
+[Mon Jul 08 16:08:00 2013] [error] [client 192.168.49.218]     raise ImportError("Could not import settings '%s' (Is it on sys.path?): %s" % (self.SETTINGS_MODULE, e))
+[Mon Jul 08 16:08:00 2013] [error] [client 192.168.49.218] ImportError: Could not import settings 'mysite.settings' (Is it on sys.path?): No module named mysite.settings
+[Mon Jul 08 16:09:31 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2320): Exception occurred processing WSGI script '/var/www/mysite/mysite/wsgi.py'.
+[Mon Jul 08 16:09:31 2013] [error] [client 192.168.49.218] Traceback (most recent call last):
+[Mon Jul 08 16:09:31 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/wsgi.py", line 236, in __call__
+[Mon Jul 08 16:09:31 2013] [error] [client 192.168.49.218]     self.load_middleware()
+[Mon Jul 08 16:09:31 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 45, in load_middleware
+[Mon Jul 08 16:09:31 2013] [error] [client 192.168.49.218]     for middleware_path in settings.MIDDLEWARE_CLASSES:
+[Mon Jul 08 16:09:31 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 53, in __getattr__
+[Mon Jul 08 16:09:31 2013] [error] [client 192.168.49.218]     self._setup(name)
+[Mon Jul 08 16:09:31 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 48, in _setup
+[Mon Jul 08 16:09:31 2013] [error] [client 192.168.49.218]     self._wrapped = Settings(settings_module)
+[Mon Jul 08 16:09:31 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 134, in __init__
+[Mon Jul 08 16:09:31 2013] [error] [client 192.168.49.218]     raise ImportError("Could not import settings '%s' (Is it on sys.path?): %s" % (self.SETTINGS_MODULE, e))
+[Mon Jul 08 16:09:31 2013] [error] [client 192.168.49.218] ImportError: Could not import settings 'mysite.settings' (Is it on sys.path?): No module named mysite.settings
+[Mon Jul 08 16:17:13 2013] [notice] caught SIGTERM, shutting down
+[Mon Jul 08 16:17:14 2013] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:httpd_t:s0
+[Mon Jul 08 16:17:14 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Mon Jul 08 16:17:15 2013] [notice] Digest: generating secret for digest authentication ...
+[Mon Jul 08 16:17:15 2013] [notice] Digest: done
+[Mon Jul 08 16:17:15 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Mon Jul 08 03:17:18 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2731): Exception occurred processing WSGI script '/var/www/mysite/mysite/wsgi.py'.
+[Mon Jul 08 03:17:18 2013] [error] [client 192.168.49.218] Traceback (most recent call last):
+[Mon Jul 08 03:17:18 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/wsgi.py", line 236, in __call__
+[Mon Jul 08 03:17:18 2013] [error] [client 192.168.49.218]     self.load_middleware()
+[Mon Jul 08 03:17:18 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 57, in load_middleware
+[Mon Jul 08 03:17:18 2013] [error] [client 192.168.49.218]     raise exceptions.ImproperlyConfigured('Middleware module "%s" does not define a "%s" class' % (mw_module, mw_classname))
+[Mon Jul 08 03:17:18 2013] [error] [client 192.168.49.218] ImproperlyConfigured: Middleware module "django.middleware.csrf" does not define a "CsrfResponseMiddleware" class
+[Mon Jul 08 03:20:06 2013] [error] Internal Server Error: /test2/
+[Mon Jul 08 03:20:06 2013] [error] Traceback (most recent call last):
+[Mon Jul 08 03:20:06 2013] [error]   File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 103, in get_response
+[Mon Jul 08 03:20:06 2013] [error]     resolver_match = resolver.resolve(request.path_info)
+[Mon Jul 08 03:20:06 2013] [error]   File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 319, in resolve
+[Mon Jul 08 03:20:06 2013] [error]     for pattern in self.url_patterns:
+[Mon Jul 08 03:20:06 2013] [error]   File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+[Mon Jul 08 03:20:06 2013] [error]     patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+[Mon Jul 08 03:20:06 2013] [error]   File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+[Mon Jul 08 03:20:06 2013] [error]     self._urlconf_module = import_module(self.urlconf_name)
+[Mon Jul 08 03:20:06 2013] [error]   File "/usr/lib/python2.6/site-packages/django/utils/importlib.py", line 35, in import_module
+[Mon Jul 08 03:20:06 2013] [error]     __import__(name)
+[Mon Jul 08 03:20:06 2013] [error]   File "/var/www/mysite/mysite/urls.py", line 18, in <module>
+[Mon Jul 08 03:20:06 2013] [error]     url(r'^admin/', include(admin.site.urls)),
+[Mon Jul 08 03:20:06 2013] [error]   File "/usr/lib/python2.6/site-packages/django/contrib/admin/sites.py", line 257, in urls
+[Mon Jul 08 03:20:06 2013] [error]     return self.get_urls(), self.app_name, self.name
+[Mon Jul 08 03:20:06 2013] [error]   File "/usr/lib/python2.6/site-packages/django/contrib/admin/sites.py", line 215, in get_urls
+[Mon Jul 08 03:20:06 2013] [error]     self.check_dependencies()
+[Mon Jul 08 03:20:06 2013] [error]   File "/usr/lib/python2.6/site-packages/django/contrib/admin/sites.py", line 162, in check_dependencies
+[Mon Jul 08 03:20:06 2013] [error]     raise ImproperlyConfigured("Put 'django.contrib.admin' in your "
+[Mon Jul 08 03:20:06 2013] [error] ImproperlyConfigured: Put 'django.contrib.admin' in your INSTALLED_APPS setting in order to use the admin application.
+[Mon Jul 08 03:20:38 2013] [error] Internal Server Error: /test2/
+[Mon Jul 08 03:20:38 2013] [error] Traceback (most recent call last):
+[Mon Jul 08 03:20:38 2013] [error]   File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 103, in get_response
+[Mon Jul 08 03:20:38 2013] [error]     resolver_match = resolver.resolve(request.path_info)
+[Mon Jul 08 03:20:38 2013] [error]   File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 319, in resolve
+[Mon Jul 08 03:20:38 2013] [error]     for pattern in self.url_patterns:
+[Mon Jul 08 03:20:38 2013] [error]   File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+[Mon Jul 08 03:20:38 2013] [error]     patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+[Mon Jul 08 03:20:38 2013] [error]   File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+[Mon Jul 08 03:20:38 2013] [error]     self._urlconf_module = import_module(self.urlconf_name)
+[Mon Jul 08 03:20:38 2013] [error]   File "/usr/lib/python2.6/site-packages/django/utils/importlib.py", line 35, in import_module
+[Mon Jul 08 03:20:38 2013] [error]     __import__(name)
+[Mon Jul 08 03:20:38 2013] [error]   File "/var/www/mysite/mysite/urls.py", line 6, in <module>
+[Mon Jul 08 03:20:38 2013] [error]     admin.autodiscover()
+[Mon Jul 08 03:20:38 2013] [error] NameError: name 'admin' is not defined
+[Mon Jul 08 16:22:32 2013] [notice] caught SIGTERM, shutting down
+[Mon Jul 08 16:23:38 2013] [notice] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Mon Jul 08 16:23:38 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Mon Jul 08 16:23:38 2013] [notice] Digest: generating secret for digest authentication ...
+[Mon Jul 08 16:23:38 2013] [notice] Digest: done
+[Mon Jul 08 16:23:38 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Mon Jul 08 16:37:25 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2355): Exception occurred processing WSGI script '/var/www/mysite/mysite/wsgi.py'.
+[Mon Jul 08 16:37:25 2013] [error] [client 192.168.49.218] Traceback (most recent call last):
+[Mon Jul 08 16:37:25 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/wsgi.py", line 236, in __call__
+[Mon Jul 08 16:37:25 2013] [error] [client 192.168.49.218]     self.load_middleware()
+[Mon Jul 08 16:37:25 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 45, in load_middleware
+[Mon Jul 08 16:37:25 2013] [error] [client 192.168.49.218]     for middleware_path in settings.MIDDLEWARE_CLASSES:
+[Mon Jul 08 16:37:25 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 53, in __getattr__
+[Mon Jul 08 16:37:25 2013] [error] [client 192.168.49.218]     self._setup(name)
+[Mon Jul 08 16:37:25 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 48, in _setup
+[Mon Jul 08 16:37:25 2013] [error] [client 192.168.49.218]     self._wrapped = Settings(settings_module)
+[Mon Jul 08 16:37:25 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 134, in __init__
+[Mon Jul 08 16:37:25 2013] [error] [client 192.168.49.218]     raise ImportError("Could not import settings '%s' (Is it on sys.path?): %s" % (self.SETTINGS_MODULE, e))
+[Mon Jul 08 16:37:25 2013] [error] [client 192.168.49.218] ImportError: Could not import settings 'mysite.settings' (Is it on sys.path?): No module named mysite.settings
+[Mon Jul 08 16:39:29 2013] [notice] caught SIGTERM, shutting down
+[Mon Jul 08 16:40:34 2013] [notice] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Mon Jul 08 16:40:34 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Mon Jul 08 16:40:34 2013] [notice] Digest: generating secret for digest authentication ...
+[Mon Jul 08 16:40:34 2013] [notice] Digest: done
+[Mon Jul 08 16:40:35 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Mon Jul 08 18:08:24 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2351): Exception occurred processing WSGI script '/var/www/mysite/mysite/wsgi.py'.
+[Mon Jul 08 18:08:24 2013] [error] [client 192.168.49.218] Traceback (most recent call last):
+[Mon Jul 08 18:08:24 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/wsgi.py", line 236, in __call__
+[Mon Jul 08 18:08:24 2013] [error] [client 192.168.49.218]     self.load_middleware()
+[Mon Jul 08 18:08:24 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 45, in load_middleware
+[Mon Jul 08 18:08:24 2013] [error] [client 192.168.49.218]     for middleware_path in settings.MIDDLEWARE_CLASSES:
+[Mon Jul 08 18:08:24 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 53, in __getattr__
+[Mon Jul 08 18:08:24 2013] [error] [client 192.168.49.218]     self._setup(name)
+[Mon Jul 08 18:08:24 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 48, in _setup
+[Mon Jul 08 18:08:24 2013] [error] [client 192.168.49.218]     self._wrapped = Settings(settings_module)
+[Mon Jul 08 18:08:24 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 134, in __init__
+[Mon Jul 08 18:08:24 2013] [error] [client 192.168.49.218]     raise ImportError("Could not import settings '%s' (Is it on sys.path?): %s" % (self.SETTINGS_MODULE, e))
+[Mon Jul 08 18:08:24 2013] [error] [client 192.168.49.218] ImportError: Could not import settings 'mysite.settings' (Is it on sys.path?): No module named mysite.settings
+[Mon Jul 08 19:00:11 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2350): Exception occurred processing WSGI script '/var/www/mysite/mysite/wsgi.py'.
+[Mon Jul 08 19:00:11 2013] [error] [client 192.168.49.218] Traceback (most recent call last):
+[Mon Jul 08 19:00:11 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/wsgi.py", line 236, in __call__
+[Mon Jul 08 19:00:11 2013] [error] [client 192.168.49.218]     self.load_middleware()
+[Mon Jul 08 19:00:11 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 45, in load_middleware
+[Mon Jul 08 19:00:11 2013] [error] [client 192.168.49.218]     for middleware_path in settings.MIDDLEWARE_CLASSES:
+[Mon Jul 08 19:00:11 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 53, in __getattr__
+[Mon Jul 08 19:00:11 2013] [error] [client 192.168.49.218]     self._setup(name)
+[Mon Jul 08 19:00:11 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 48, in _setup
+[Mon Jul 08 19:00:11 2013] [error] [client 192.168.49.218]     self._wrapped = Settings(settings_module)
+[Mon Jul 08 19:00:11 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 134, in __init__
+[Mon Jul 08 19:00:11 2013] [error] [client 192.168.49.218]     raise ImportError("Could not import settings '%s' (Is it on sys.path?): %s" % (self.SETTINGS_MODULE, e))
+[Mon Jul 08 19:00:11 2013] [error] [client 192.168.49.218] ImportError: Could not import settings 'mysite.settings' (Is it on sys.path?): No module named mysite.settings
+[Mon Jul 08 19:01:47 2013] [notice] caught SIGTERM, shutting down
+[Mon Jul 08 19:02:55 2013] [notice] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Mon Jul 08 19:02:55 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Mon Jul 08 19:02:56 2013] [notice] Digest: generating secret for digest authentication ...
+[Mon Jul 08 19:02:56 2013] [notice] Digest: done
+[Mon Jul 08 19:02:56 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Mon Jul 08 19:04:48 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2317): Exception occurred processing WSGI script '/var/www/mysite/mysite/wsgi.py'.
+[Mon Jul 08 19:04:48 2013] [error] [client 192.168.49.218] Traceback (most recent call last):
+[Mon Jul 08 19:04:48 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/wsgi.py", line 236, in __call__
+[Mon Jul 08 19:04:48 2013] [error] [client 192.168.49.218]     self.load_middleware()
+[Mon Jul 08 19:04:48 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 45, in load_middleware
+[Mon Jul 08 19:04:48 2013] [error] [client 192.168.49.218]     for middleware_path in settings.MIDDLEWARE_CLASSES:
+[Mon Jul 08 19:04:48 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 53, in __getattr__
+[Mon Jul 08 19:04:48 2013] [error] [client 192.168.49.218]     self._setup(name)
+[Mon Jul 08 19:04:48 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 48, in _setup
+[Mon Jul 08 19:04:48 2013] [error] [client 192.168.49.218]     self._wrapped = Settings(settings_module)
+[Mon Jul 08 19:04:48 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 134, in __init__
+[Mon Jul 08 19:04:48 2013] [error] [client 192.168.49.218]     raise ImportError("Could not import settings '%s' (Is it on sys.path?): %s" % (self.SETTINGS_MODULE, e))
+[Mon Jul 08 19:04:48 2013] [error] [client 192.168.49.218] ImportError: Could not import settings 'mysite.settings' (Is it on sys.path?): No module named mysite.settings
+[Mon Jul 08 19:04:49 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2320): Exception occurred processing WSGI script '/var/www/mysite/mysite/wsgi.py'.
+[Mon Jul 08 19:04:49 2013] [error] [client 192.168.49.218] Traceback (most recent call last):
+[Mon Jul 08 19:04:49 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/wsgi.py", line 236, in __call__
+[Mon Jul 08 19:04:49 2013] [error] [client 192.168.49.218]     self.load_middleware()
+[Mon Jul 08 19:04:49 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 45, in load_middleware
+[Mon Jul 08 19:04:49 2013] [error] [client 192.168.49.218]     for middleware_path in settings.MIDDLEWARE_CLASSES:
+[Mon Jul 08 19:04:49 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 53, in __getattr__
+[Mon Jul 08 19:04:49 2013] [error] [client 192.168.49.218]     self._setup(name)
+[Mon Jul 08 19:04:49 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 48, in _setup
+[Mon Jul 08 19:04:49 2013] [error] [client 192.168.49.218]     self._wrapped = Settings(settings_module)
+[Mon Jul 08 19:04:49 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 134, in __init__
+[Mon Jul 08 19:04:49 2013] [error] [client 192.168.49.218]     raise ImportError("Could not import settings '%s' (Is it on sys.path?): %s" % (self.SETTINGS_MODULE, e))
+[Mon Jul 08 19:04:49 2013] [error] [client 192.168.49.218] ImportError: Could not import settings 'mysite.settings' (Is it on sys.path?): No module named mysite.settings
+[Mon Jul 08 19:04:53 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2316): Exception occurred processing WSGI script '/var/www/mysite/mysite/wsgi.py'.
+[Mon Jul 08 19:04:53 2013] [error] [client 192.168.49.218] Traceback (most recent call last):
+[Mon Jul 08 19:04:53 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/wsgi.py", line 236, in __call__
+[Mon Jul 08 19:04:53 2013] [error] [client 192.168.49.218]     self.load_middleware()
+[Mon Jul 08 19:04:53 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 45, in load_middleware
+[Mon Jul 08 19:04:53 2013] [error] [client 192.168.49.218]     for middleware_path in settings.MIDDLEWARE_CLASSES:
+[Mon Jul 08 19:04:53 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 53, in __getattr__
+[Mon Jul 08 19:04:53 2013] [error] [client 192.168.49.218]     self._setup(name)
+[Mon Jul 08 19:04:53 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 48, in _setup
+[Mon Jul 08 19:04:53 2013] [error] [client 192.168.49.218]     self._wrapped = Settings(settings_module)
+[Mon Jul 08 19:04:53 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 134, in __init__
+[Mon Jul 08 19:04:53 2013] [error] [client 192.168.49.218]     raise ImportError("Could not import settings '%s' (Is it on sys.path?): %s" % (self.SETTINGS_MODULE, e))
+[Mon Jul 08 19:04:53 2013] [error] [client 192.168.49.218] ImportError: Could not import settings 'mysite.settings' (Is it on sys.path?): No module named mysite.settings
+[Mon Jul 08 19:07:54 2013] [notice] caught SIGTERM, shutting down
+[Mon Jul 08 19:07:55 2013] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:httpd_t:s0
+[Mon Jul 08 19:07:55 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Mon Jul 08 19:07:55 2013] [notice] Digest: generating secret for digest authentication ...
+[Mon Jul 08 19:07:55 2013] [notice] Digest: done
+[Mon Jul 08 19:07:55 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Mon Jul 08 19:08:11 2013] [notice] caught SIGTERM, shutting down
+[Mon Jul 08 19:09:17 2013] [notice] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Mon Jul 08 19:09:17 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Mon Jul 08 19:09:18 2013] [notice] Digest: generating secret for digest authentication ...
+[Mon Jul 08 19:09:18 2013] [notice] Digest: done
+[Mon Jul 08 19:09:18 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Mon Jul 08 19:09:22 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2309): Exception occurred processing WSGI script '/var/www/mysite/mysite/wsgi.py'.
+[Mon Jul 08 19:09:22 2013] [error] [client 192.168.49.218] Traceback (most recent call last):
+[Mon Jul 08 19:09:22 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/wsgi.py", line 236, in __call__
+[Mon Jul 08 19:09:22 2013] [error] [client 192.168.49.218]     self.load_middleware()
+[Mon Jul 08 19:09:22 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 45, in load_middleware
+[Mon Jul 08 19:09:22 2013] [error] [client 192.168.49.218]     for middleware_path in settings.MIDDLEWARE_CLASSES:
+[Mon Jul 08 19:09:22 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 53, in __getattr__
+[Mon Jul 08 19:09:22 2013] [error] [client 192.168.49.218]     self._setup(name)
+[Mon Jul 08 19:09:22 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 48, in _setup
+[Mon Jul 08 19:09:22 2013] [error] [client 192.168.49.218]     self._wrapped = Settings(settings_module)
+[Mon Jul 08 19:09:22 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 134, in __init__
+[Mon Jul 08 19:09:22 2013] [error] [client 192.168.49.218]     raise ImportError("Could not import settings '%s' (Is it on sys.path?): %s" % (self.SETTINGS_MODULE, e))
+[Mon Jul 08 19:09:22 2013] [error] [client 192.168.49.218] ImportError: Could not import settings 'mysite.settings' (Is it on sys.path?): No module named mysite.settings
+[Mon Jul 08 19:09:24 2013] [error] [client 192.168.49.218] mod_wsgi (pid=2314): Exception occurred processing WSGI script '/var/www/mysite/mysite/wsgi.py'.
+[Mon Jul 08 19:09:24 2013] [error] [client 192.168.49.218] Traceback (most recent call last):
+[Mon Jul 08 19:09:24 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/wsgi.py", line 236, in __call__
+[Mon Jul 08 19:09:24 2013] [error] [client 192.168.49.218]     self.load_middleware()
+[Mon Jul 08 19:09:24 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 45, in load_middleware
+[Mon Jul 08 19:09:24 2013] [error] [client 192.168.49.218]     for middleware_path in settings.MIDDLEWARE_CLASSES:
+[Mon Jul 08 19:09:24 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 53, in __getattr__
+[Mon Jul 08 19:09:24 2013] [error] [client 192.168.49.218]     self._setup(name)
+[Mon Jul 08 19:09:24 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 48, in _setup
+[Mon Jul 08 19:09:24 2013] [error] [client 192.168.49.218]     self._wrapped = Settings(settings_module)
+[Mon Jul 08 19:09:24 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/conf/__init__.py", line 134, in __init__
+[Mon Jul 08 19:09:24 2013] [error] [client 192.168.49.218]     raise ImportError("Could not import settings '%s' (Is it on sys.path?): %s" % (self.SETTINGS_MODULE, e))
+[Mon Jul 08 19:09:24 2013] [error] [client 192.168.49.218] ImportError: Could not import settings 'mysite.settings' (Is it on sys.path?): No module named mysite.settings
+[Mon Jul 08 19:09:38 2013] [notice] caught SIGTERM, shutting down
+[Mon Jul 08 19:09:39 2013] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:httpd_t:s0
+[Mon Jul 08 19:09:39 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Mon Jul 08 19:09:39 2013] [notice] Digest: generating secret for digest authentication ...
+[Mon Jul 08 19:09:39 2013] [notice] Digest: done
+[Mon Jul 08 19:09:39 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Mon Jul 08 23:10:55 2013] [notice] caught SIGTERM, shutting down
+[Mon Jul 08 23:11:00 2013] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:httpd_t:s0
+[Mon Jul 08 23:11:00 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Mon Jul 08 23:11:01 2013] [notice] Digest: generating secret for digest authentication ...
+[Mon Jul 08 23:11:01 2013] [notice] Digest: done
+[Mon Jul 08 23:11:01 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Tue Jul 09 08:01:09 2013] [error] [client 192.168.49.218] Directory index forbidden by Options directive: /var/www/html/
+[Tue Jul 09 21:05:04 2013] [error] [client 192.168.49.218] Directory index forbidden by Options directive: /var/www/html/
+[Wed Jul 10 10:06:13 2013] [notice] caught SIGTERM, shutting down
+[Wed Jul 10 10:06:14 2013] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:httpd_t:s0
+[Wed Jul 10 10:06:14 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Wed Jul 10 10:06:14 2013] [notice] Digest: generating secret for digest authentication ...
+[Wed Jul 10 10:06:14 2013] [notice] Digest: done
+[Wed Jul 10 10:06:14 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Tue Jul 09 21:07:01 2013] [error] Internal Server Error: /test2/article/
+[Tue Jul 09 21:07:01 2013] [error] Traceback (most recent call last):
+[Tue Jul 09 21:07:01 2013] [error]   File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 115, in get_response
+[Tue Jul 09 21:07:01 2013] [error]     response = callback(request, *callback_args, **callback_kwargs)
+[Tue Jul 09 21:07:01 2013] [error]   File "/var/www/mysite/mysite/views.py", line 16, in article
+[Tue Jul 09 21:07:01 2013] [error]     render_to_response('index.html', article)
+[Tue Jul 09 21:07:01 2013] [error]   File "/usr/lib/python2.6/site-packages/django/shortcuts/__init__.py", line 29, in render_to_response
+[Tue Jul 09 21:07:01 2013] [error]     return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+[Tue Jul 09 21:07:01 2013] [error]   File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 170, in render_to_string
+[Tue Jul 09 21:07:01 2013] [error]     t = get_template(template_name)
+[Tue Jul 09 21:07:01 2013] [error]   File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 146, in get_template
+[Tue Jul 09 21:07:01 2013] [error]     template, origin = find_template(template_name)
+[Tue Jul 09 21:07:01 2013] [error]   File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 139, in find_template
+[Tue Jul 09 21:07:01 2013] [error]     raise TemplateDoesNotExist(name)
+[Tue Jul 09 21:07:01 2013] [error] TemplateDoesNotExist: index.html
+[Tue Jul 09 21:09:48 2013] [error] Internal Server Error: /test2/article/
+[Tue Jul 09 21:09:48 2013] [error] Traceback (most recent call last):
+[Tue Jul 09 21:09:48 2013] [error]   File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 133, in get_response
+[Tue Jul 09 21:09:48 2013] [error]     raise ValueError("The view %s.%s didn't return an HttpResponse object." % (callback.__module__, view_name))
+[Tue Jul 09 21:09:48 2013] [error] ValueError: The view mysite.views.article didn't return an HttpResponse object.
+[Tue Jul 09 21:09:52 2013] [error] Internal Server Error: /test2/article/
+[Tue Jul 09 21:09:52 2013] [error] Traceback (most recent call last):
+[Tue Jul 09 21:09:52 2013] [error]   File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 133, in get_response
+[Tue Jul 09 21:09:52 2013] [error]     raise ValueError("The view %s.%s didn't return an HttpResponse object." % (callback.__module__, view_name))
+[Tue Jul 09 21:09:52 2013] [error] ValueError: The view mysite.views.article didn't return an HttpResponse object.
+[Tue Jul 09 21:12:00 2013] [error] Internal Server Error: /test2/article/
+[Tue Jul 09 21:12:00 2013] [error] Traceback (most recent call last):
+[Tue Jul 09 21:12:00 2013] [error]   File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 133, in get_response
+[Tue Jul 09 21:12:00 2013] [error]     raise ValueError("The view %s.%s didn't return an HttpResponse object." % (callback.__module__, view_name))
+[Tue Jul 09 21:12:00 2013] [error] ValueError: The view mysite.views.article didn't return an HttpResponse object.
+[Tue Jul 09 21:14:17 2013] [error] Internal Server Error: /test2/article/
+[Tue Jul 09 21:14:17 2013] [error] Traceback (most recent call last):
+[Tue Jul 09 21:14:17 2013] [error]   File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 133, in get_response
+[Tue Jul 09 21:14:17 2013] [error]     raise ValueError("The view %s.%s didn't return an HttpResponse object." % (callback.__module__, view_name))
+[Tue Jul 09 21:14:17 2013] [error] ValueError: The view mysite.views.article didn't return an HttpResponse object.
+[Tue Jul 09 21:14:19 2013] [error] Internal Server Error: /test2/article/
+[Tue Jul 09 21:14:19 2013] [error] Traceback (most recent call last):
+[Tue Jul 09 21:14:19 2013] [error]   File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 133, in get_response
+[Tue Jul 09 21:14:19 2013] [error]     raise ValueError("The view %s.%s didn't return an HttpResponse object." % (callback.__module__, view_name))
+[Tue Jul 09 21:14:19 2013] [error] ValueError: The view mysite.views.article didn't return an HttpResponse object.
+[Tue Jul 09 21:14:29 2013] [error] Internal Server Error: /test2/article/
+[Tue Jul 09 21:14:29 2013] [error] Traceback (most recent call last):
+[Tue Jul 09 21:14:29 2013] [error]   File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 115, in get_response
+[Tue Jul 09 21:14:29 2013] [error]     response = callback(request, *callback_args, **callback_kwargs)
+[Tue Jul 09 21:14:29 2013] [error]   File "/var/www/mysite/mysite/views.py", line 16, in article
+[Tue Jul 09 21:14:29 2013] [error]     render_to_response('index.html', article)
+[Tue Jul 09 21:14:29 2013] [error]   File "/usr/lib/python2.6/site-packages/django/shortcuts/__init__.py", line 29, in render_to_response
+[Tue Jul 09 21:14:29 2013] [error]     return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+[Tue Jul 09 21:14:29 2013] [error]   File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 170, in render_to_string
+[Tue Jul 09 21:14:29 2013] [error]     t = get_template(template_name)
+[Tue Jul 09 21:14:29 2013] [error]   File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 146, in get_template
+[Tue Jul 09 21:14:29 2013] [error]     template, origin = find_template(template_name)
+[Tue Jul 09 21:14:29 2013] [error]   File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 139, in find_template
+[Tue Jul 09 21:14:29 2013] [error]     raise TemplateDoesNotExist(name)
+[Tue Jul 09 21:14:29 2013] [error] TemplateDoesNotExist: index.html
+[Tue Jul 09 21:16:57 2013] [error] Internal Server Error: /test2/article/
+[Tue Jul 09 21:16:57 2013] [error] Traceback (most recent call last):
+[Tue Jul 09 21:16:57 2013] [error]   File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 133, in get_response
+[Tue Jul 09 21:16:57 2013] [error]     raise ValueError("The view %s.%s didn't return an HttpResponse object." % (callback.__module__, view_name))
+[Tue Jul 09 21:16:57 2013] [error] ValueError: The view mysite.views.article didn't return an HttpResponse object.
+[Tue Jul 09 21:17:50 2013] [error] Internal Server Error: /test2/article/
+[Tue Jul 09 21:17:50 2013] [error] Traceback (most recent call last):
+[Tue Jul 09 21:17:50 2013] [error]   File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 115, in get_response
+[Tue Jul 09 21:17:50 2013] [error]     response = callback(request, *callback_args, **callback_kwargs)
+[Tue Jul 09 21:17:50 2013] [error]   File "/var/www/mysite/mysite/views.py", line 16, in article
+[Tue Jul 09 21:17:50 2013] [error]     return render_to_response('index.html', article)
+[Tue Jul 09 21:17:50 2013] [error]   File "/usr/lib/python2.6/site-packages/django/shortcuts/__init__.py", line 29, in render_to_response
+[Tue Jul 09 21:17:50 2013] [error]     return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+[Tue Jul 09 21:17:50 2013] [error]   File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 170, in render_to_string
+[Tue Jul 09 21:17:50 2013] [error]     t = get_template(template_name)
+[Tue Jul 09 21:17:50 2013] [error]   File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 146, in get_template
+[Tue Jul 09 21:17:50 2013] [error]     template, origin = find_template(template_name)
+[Tue Jul 09 21:17:50 2013] [error]   File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 139, in find_template
+[Tue Jul 09 21:17:50 2013] [error]     raise TemplateDoesNotExist(name)
+[Tue Jul 09 21:17:50 2013] [error] TemplateDoesNotExist: index.html
+[Tue Jul 09 21:17:51 2013] [error] Internal Server Error: /test2/article/
+[Tue Jul 09 21:17:51 2013] [error] Traceback (most recent call last):
+[Tue Jul 09 21:17:51 2013] [error]   File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 115, in get_response
+[Tue Jul 09 21:17:51 2013] [error]     response = callback(request, *callback_args, **callback_kwargs)
+[Tue Jul 09 21:17:51 2013] [error]   File "/var/www/mysite/mysite/views.py", line 16, in article
+[Tue Jul 09 21:17:51 2013] [error]     return render_to_response('index.html', article)
+[Tue Jul 09 21:17:51 2013] [error]   File "/usr/lib/python2.6/site-packages/django/shortcuts/__init__.py", line 29, in render_to_response
+[Tue Jul 09 21:17:51 2013] [error]     return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+[Tue Jul 09 21:17:51 2013] [error]   File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 170, in render_to_string
+[Tue Jul 09 21:17:51 2013] [error]     t = get_template(template_name)
+[Tue Jul 09 21:17:51 2013] [error]   File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 146, in get_template
+[Tue Jul 09 21:17:51 2013] [error]     template, origin = find_template(template_name)
+[Tue Jul 09 21:17:51 2013] [error]   File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 139, in find_template
+[Tue Jul 09 21:17:51 2013] [error]     raise TemplateDoesNotExist(name)
+[Tue Jul 09 21:17:51 2013] [error] TemplateDoesNotExist: index.html
+[Tue Jul 09 21:21:20 2013] [error] Internal Server Error: /test2/article/
+[Tue Jul 09 21:21:20 2013] [error] Traceback (most recent call last):
+[Tue Jul 09 21:21:20 2013] [error]   File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 115, in get_response
+[Tue Jul 09 21:21:20 2013] [error]     response = callback(request, *callback_args, **callback_kwargs)
+[Tue Jul 09 21:21:20 2013] [error]   File "/var/www/mysite/mysite/views.py", line 16, in article
+[Tue Jul 09 21:21:20 2013] [error]     return render_to_response('index.html', article)
+[Tue Jul 09 21:21:20 2013] [error]   File "/usr/lib/python2.6/site-packages/django/shortcuts/__init__.py", line 29, in render_to_response
+[Tue Jul 09 21:21:20 2013] [error]     return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+[Tue Jul 09 21:21:20 2013] [error]   File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 170, in render_to_string
+[Tue Jul 09 21:21:20 2013] [error]     t = get_template(template_name)
+[Tue Jul 09 21:21:20 2013] [error]   File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 146, in get_template
+[Tue Jul 09 21:21:20 2013] [error]     template, origin = find_template(template_name)
+[Tue Jul 09 21:21:20 2013] [error]   File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 139, in find_template
+[Tue Jul 09 21:21:20 2013] [error]     raise TemplateDoesNotExist(name)
+[Tue Jul 09 21:21:20 2013] [error] TemplateDoesNotExist: index.html
+[Wed Jul 10 10:24:32 2013] [notice] caught SIGTERM, shutting down
+[Wed Jul 10 10:24:33 2013] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:httpd_t:s0
+[Wed Jul 10 10:24:33 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Wed Jul 10 10:24:34 2013] [notice] Digest: generating secret for digest authentication ...
+[Wed Jul 10 10:24:34 2013] [notice] Digest: done
+[Wed Jul 10 10:24:34 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Wed Jul 10 10:25:23 2013] [notice] caught SIGTERM, shutting down
+[Wed Jul 10 10:25:24 2013] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:httpd_t:s0
+[Wed Jul 10 10:25:24 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Wed Jul 10 10:25:24 2013] [notice] Digest: generating secret for digest authentication ...
+[Wed Jul 10 10:25:24 2013] [notice] Digest: done
+[Wed Jul 10 10:25:24 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Wed Jul 10 10:30:10 2013] [notice] caught SIGTERM, shutting down
+[Wed Jul 10 10:30:11 2013] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:httpd_t:s0
+[Wed Jul 10 10:30:11 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Wed Jul 10 10:30:11 2013] [notice] Digest: generating secret for digest authentication ...
+[Wed Jul 10 10:30:11 2013] [notice] Digest: done
+[Wed Jul 10 10:30:11 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Wed Jul 10 10:46:10 2013] [notice] caught SIGTERM, shutting down
+[Wed Jul 10 10:46:11 2013] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:httpd_t:s0
+[Wed Jul 10 10:46:11 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Wed Jul 10 10:46:11 2013] [notice] Digest: generating secret for digest authentication ...
+[Wed Jul 10 10:46:11 2013] [notice] Digest: done
+[Wed Jul 10 10:46:12 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Wed Jul 10 10:50:40 2013] [notice] caught SIGTERM, shutting down
+[Wed Jul 10 10:50:41 2013] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:httpd_t:s0
+[Wed Jul 10 10:50:41 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Wed Jul 10 10:50:41 2013] [notice] Digest: generating secret for digest authentication ...
+[Wed Jul 10 10:50:41 2013] [notice] Digest: done
+[Wed Jul 10 10:50:41 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Wed Jul 10 10:59:49 2013] [notice] caught SIGTERM, shutting down
+[Wed Jul 10 10:59:49 2013] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:httpd_t:s0
+[Wed Jul 10 10:59:50 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Wed Jul 10 10:59:50 2013] [notice] Digest: generating secret for digest authentication ...
+[Wed Jul 10 10:59:50 2013] [notice] Digest: done
+[Wed Jul 10 10:59:50 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Wed Jul 10 14:33:21 2013] [notice] caught SIGTERM, shutting down
+[Wed Jul 10 14:36:13 2013] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:httpd_t:s0
+[Wed Jul 10 14:36:13 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Wed Jul 10 14:36:13 2013] [notice] Digest: generating secret for digest authentication ...
+[Wed Jul 10 14:36:13 2013] [notice] Digest: done
+[Wed Jul 10 14:36:13 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Wed Jul 10 14:36:15 2013] [notice] caught SIGTERM, shutting down
+[Wed Jul 10 14:36:16 2013] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:httpd_t:s0
+[Wed Jul 10 14:36:16 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Wed Jul 10 14:36:16 2013] [notice] Digest: generating secret for digest authentication ...
+[Wed Jul 10 14:36:16 2013] [notice] Digest: done
+[Wed Jul 10 14:36:16 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Wed Jul 10 15:44:43 2013] [notice] caught SIGTERM, shutting down
+[Wed Jul 10 15:45:22 2013] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:httpd_t:s0
+[Wed Jul 10 15:45:22 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Wed Jul 10 15:45:22 2013] [notice] Digest: generating secret for digest authentication ...
+[Wed Jul 10 15:45:22 2013] [notice] Digest: done
+[Wed Jul 10 15:45:22 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Wed Jul 10 15:45:27 2013] [notice] caught SIGTERM, shutting down
+[Wed Jul 10 15:45:28 2013] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:httpd_t:s0
+[Wed Jul 10 15:45:28 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Wed Jul 10 15:45:28 2013] [notice] Digest: generating secret for digest authentication ...
+[Wed Jul 10 15:45:28 2013] [notice] Digest: done
+[Wed Jul 10 15:45:28 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Wed Jul 10 15:47:04 2013] [notice] caught SIGTERM, shutting down
+[Wed Jul 10 15:47:05 2013] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:httpd_t:s0
+[Wed Jul 10 15:47:05 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Wed Jul 10 15:47:05 2013] [notice] Digest: generating secret for digest authentication ...
+[Wed Jul 10 15:47:05 2013] [notice] Digest: done
+[Wed Jul 10 15:47:05 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Wed Jul 10 15:47:22 2013] [notice] caught SIGTERM, shutting down
+[Wed Jul 10 15:47:23 2013] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:httpd_t:s0
+[Wed Jul 10 15:47:23 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Wed Jul 10 15:47:23 2013] [notice] Digest: generating secret for digest authentication ...
+[Wed Jul 10 15:47:23 2013] [notice] Digest: done
+[Wed Jul 10 15:47:23 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Wed Jul 10 15:48:08 2013] [notice] caught SIGTERM, shutting down
+[Wed Jul 10 15:48:09 2013] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:httpd_t:s0
+[Wed Jul 10 15:48:09 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Wed Jul 10 15:48:09 2013] [notice] Digest: generating secret for digest authentication ...
+[Wed Jul 10 15:48:09 2013] [notice] Digest: done
+[Wed Jul 10 15:48:09 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Wed Jul 10 15:52:11 2013] [notice] caught SIGTERM, shutting down
+[Wed Jul 10 15:52:12 2013] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:httpd_t:s0
+[Wed Jul 10 15:52:12 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Wed Jul 10 15:52:12 2013] [notice] Digest: generating secret for digest authentication ...
+[Wed Jul 10 15:52:12 2013] [notice] Digest: done
+[Wed Jul 10 15:52:12 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Wed Jul 10 02:52:14 2013] [error] Internal Server Error: /test2/article/
+[Wed Jul 10 02:52:14 2013] [error] Traceback (most recent call last):
+[Wed Jul 10 02:52:14 2013] [error]   File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 115, in get_response
+[Wed Jul 10 02:52:14 2013] [error]     response = callback(request, *callback_args, **callback_kwargs)
+[Wed Jul 10 02:52:14 2013] [error]   File "/var/www/mysite/mysite/views.py", line 20, in article
+[Wed Jul 10 02:52:14 2013] [error]     blogs = LightBlogging.objects.all()
+[Wed Jul 10 02:52:14 2013] [error] NameError: global name 'LightBlogging' is not defined
+[Wed Jul 10 02:54:42 2013] [error] Internal Server Error: /test2/article/
+[Wed Jul 10 02:54:42 2013] [error] Traceback (most recent call last):
+[Wed Jul 10 02:54:42 2013] [error]   File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 103, in get_response
+[Wed Jul 10 02:54:42 2013] [error]     resolver_match = resolver.resolve(request.path_info)
+[Wed Jul 10 02:54:42 2013] [error]   File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 319, in resolve
+[Wed Jul 10 02:54:42 2013] [error]     for pattern in self.url_patterns:
+[Wed Jul 10 02:54:42 2013] [error]   File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+[Wed Jul 10 02:54:42 2013] [error]     patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+[Wed Jul 10 02:54:42 2013] [error]   File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+[Wed Jul 10 02:54:42 2013] [error]     self._urlconf_module = import_module(self.urlconf_name)
+[Wed Jul 10 02:54:42 2013] [error]   File "/usr/lib/python2.6/site-packages/django/utils/importlib.py", line 35, in import_module
+[Wed Jul 10 02:54:42 2013] [error]     __import__(name)
+[Wed Jul 10 02:54:42 2013] [error]   File "/var/www/mysite/mysite/urls.py", line 2, in <module>
+[Wed Jul 10 02:54:42 2013] [error]     from mysite.views import hello, article
+[Wed Jul 10 02:54:42 2013] [error]   File "/var/www/mysite/mysite/views.py", line 4, in <module>
+[Wed Jul 10 02:54:42 2013] [error]     from messages.models import LightBlogging, User, Comment
+[Wed Jul 10 02:54:42 2013] [error]   File "/var/www/mysite/messages/models.py", line 12, in <module>
+[Wed Jul 10 02:54:42 2013] [error]     class LightBlogging(models.Model):
+[Wed Jul 10 02:54:42 2013] [error]   File "/var/www/mysite/messages/models.py", line 18, in LightBlogging
+[Wed Jul 10 02:54:42 2013] [error]     comment = models.ForeignKey(Comment, blank = True)
+[Wed Jul 10 02:54:42 2013] [error] NameError: name 'Comment' is not defined
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218] mod_wsgi (pid=10465): Exception occurred processing WSGI script '/var/www/mysite/mysite/wsgi.py'.
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218] Traceback (most recent call last):
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/wsgi.py", line 255, in __call__
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218]     response = self.get_response(request)
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 178, in get_response
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 217, in handle_uncaught_exception
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218]     return debug.technical_500_response(request, *exc_info)
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/views/debug.py", line 69, in technical_500_response
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218]     html = reporter.get_traceback_html()
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/views/debug.py", line 298, in get_traceback_html
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218]     return t.render(c)
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/template/base.py", line 140, in render
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218]     return self._render(context)
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218]     return self.nodelist.render(context)
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218]     bit = self.render_node(node, context)
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218]     return node.render(context)
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 84, in render
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218]     output = self.filter_expression.resolve(context)
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/template/base.py", line 606, in resolve
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218]     new_obj = func(obj, *arg_vals)
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/template/defaultfilters.py", line 715, in date
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218]     return format(value, arg)
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/utils/dateformat.py", line 312, in format
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218]     return df.format(format_string)
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/utils/dateformat.py", line 35, in format
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218]     pieces.append(force_text(getattr(self, piece)()))
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/utils/dateformat.py", line 216, in r
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218]     return self.format('D, j M Y H:i:s O')
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/utils/dateformat.py", line 35, in format
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218]     pieces.append(force_text(getattr(self, piece)()))
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/utils/encoding.py", line 99, in force_text
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218]     s = s.__unicode__()
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/utils/functional.py", line 130, in __text_cast
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218]     return func(*self.__args, **self.__kw)
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/utils/translation/__init__.py", line 71, in ugettext
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218]     return _trans.ugettext(message)
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/utils/translation/trans_real.py", line 276, in ugettext
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218]     return do_translate(message, 'ugettext')
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/utils/translation/trans_real.py", line 258, in do_translate
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218]     _default = translation(settings.LANGUAGE_CODE)
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/utils/translation/trans_real.py", line 172, in translation
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218]     default_translation = _fetch(settings.LANGUAGE_CODE)
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/utils/translation/trans_real.py", line 154, in _fetch
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218]     app = import_module(appname)
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/utils/importlib.py", line 35, in import_module
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218]     __import__(name)
+[Wed Jul 10 02:54:42 2013] [error] [client 192.168.49.218] ImportError: No module named messages
+[Wed Jul 10 15:55:24 2013] [notice] caught SIGTERM, shutting down
+[Wed Jul 10 15:55:25 2013] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:httpd_t:s0
+[Wed Jul 10 15:55:25 2013] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Wed Jul 10 15:55:25 2013] [notice] Digest: generating secret for digest authentication ...
+[Wed Jul 10 15:55:25 2013] [notice] Digest: done
+[Wed Jul 10 15:55:25 2013] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 mod_ssl/2.2.15 OpenSSL/1.0.0-fips mod_wsgi/3.2 Python/2.6.6 mod_perl/2.0.4 Perl/v5.10.1 configured -- resuming normal operations
+[Wed Jul 10 02:57:40 2013] [error] Internal Server Error: /test2/article/
+[Wed Jul 10 02:57:40 2013] [error] Traceback (most recent call last):
+[Wed Jul 10 02:57:40 2013] [error]   File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 103, in get_response
+[Wed Jul 10 02:57:40 2013] [error]     resolver_match = resolver.resolve(request.path_info)
+[Wed Jul 10 02:57:40 2013] [error]   File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 319, in resolve
+[Wed Jul 10 02:57:40 2013] [error]     for pattern in self.url_patterns:
+[Wed Jul 10 02:57:40 2013] [error]   File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 347, in url_patterns
+[Wed Jul 10 02:57:40 2013] [error]     patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+[Wed Jul 10 02:57:40 2013] [error]   File "/usr/lib/python2.6/site-packages/django/core/urlresolvers.py", line 342, in urlconf_module
+[Wed Jul 10 02:57:40 2013] [error]     self._urlconf_module = import_module(self.urlconf_name)
+[Wed Jul 10 02:57:40 2013] [error]   File "/usr/lib/python2.6/site-packages/django/utils/importlib.py", line 35, in import_module
+[Wed Jul 10 02:57:40 2013] [error]     __import__(name)
+[Wed Jul 10 02:57:40 2013] [error]   File "/var/www/mysite/mysite/urls.py", line 2, in <module>
+[Wed Jul 10 02:57:40 2013] [error]     from mysite.views import hello, article
+[Wed Jul 10 02:57:40 2013] [error]   File "/var/www/mysite/mysite/views.py", line 4, in <module>
+[Wed Jul 10 02:57:40 2013] [error]     from messages.models import LightBlogging, User, Comment
+[Wed Jul 10 02:57:40 2013] [error]   File "/var/www/mysite/messages/models.py", line 12, in <module>
+[Wed Jul 10 02:57:40 2013] [error]     class LightBlogging(models.Model):
+[Wed Jul 10 02:57:40 2013] [error]   File "/var/www/mysite/messages/models.py", line 18, in LightBlogging
+[Wed Jul 10 02:57:40 2013] [error]     comment = models.ForeignKey(Comment, blank = True)
+[Wed Jul 10 02:57:40 2013] [error] NameError: name 'Comment' is not defined
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218] mod_wsgi (pid=10505): Exception occurred processing WSGI script '/var/www/mysite/mysite/wsgi.py'.
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218] Traceback (most recent call last):
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/wsgi.py", line 255, in __call__
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218]     response = self.get_response(request)
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 178, in get_response
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 217, in handle_uncaught_exception
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218]     return debug.technical_500_response(request, *exc_info)
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/views/debug.py", line 69, in technical_500_response
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218]     html = reporter.get_traceback_html()
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/views/debug.py", line 298, in get_traceback_html
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218]     return t.render(c)
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/template/base.py", line 140, in render
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218]     return self._render(context)
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/template/base.py", line 134, in _render
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218]     return self.nodelist.render(context)
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/template/base.py", line 830, in render
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218]     bit = self.render_node(node, context)
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 74, in render_node
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218]     return node.render(context)
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/template/debug.py", line 84, in render
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218]     output = self.filter_expression.resolve(context)
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/template/base.py", line 606, in resolve
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218]     new_obj = func(obj, *arg_vals)
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/template/defaultfilters.py", line 715, in date
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218]     return format(value, arg)
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/utils/dateformat.py", line 312, in format
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218]     return df.format(format_string)
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/utils/dateformat.py", line 35, in format
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218]     pieces.append(force_text(getattr(self, piece)()))
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/utils/dateformat.py", line 216, in r
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218]     return self.format('D, j M Y H:i:s O')
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/utils/dateformat.py", line 35, in format
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218]     pieces.append(force_text(getattr(self, piece)()))
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/utils/encoding.py", line 99, in force_text
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218]     s = s.__unicode__()
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/utils/functional.py", line 130, in __text_cast
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218]     return func(*self.__args, **self.__kw)
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/utils/translation/__init__.py", line 71, in ugettext
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218]     return _trans.ugettext(message)
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/utils/translation/trans_real.py", line 276, in ugettext
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218]     return do_translate(message, 'ugettext')
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/utils/translation/trans_real.py", line 258, in do_translate
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218]     _default = translation(settings.LANGUAGE_CODE)
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/utils/translation/trans_real.py", line 172, in translation
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218]     default_translation = _fetch(settings.LANGUAGE_CODE)
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/utils/translation/trans_real.py", line 154, in _fetch
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218]     app = import_module(appname)
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218]   File "/usr/lib/python2.6/site-packages/django/utils/importlib.py", line 35, in import_module
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218]     __import__(name)
+[Wed Jul 10 02:57:40 2013] [error] [client 192.168.49.218] ImportError: No module named messages

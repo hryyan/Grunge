@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<title>Result</title>
+	</head>
+	<body style="background-color: rgb(245, 244, 223); vtext-align: center; font: 0.93em/1.5 Verdana, Arial, "微软雅黑";">
+		<div style="text-align:left; margin:0px auto; padding-top:50px; width: 900px;">
+		<div style="text-align:left; margin:0px auto; padding-top:50px; width: 450px; float:left; clean:both;">
+		<p>
+		{% for p in result %}
+		{{p}}</br>
+		{% endfor %}
+		</div>
+		<div style="text-align:left; margin:0px auto; padding-top:50px; width: 450px; float:left;">
+		<p>
+		{% for p in link%}
+		<a href="{{p}}">Link</a></br>
+		{% endfor %}
+		</p>
+		</div>
+	</div>
+	</body>
+</html>

@@ -1,0 +1,152 @@
+xml.sax.make_parser([parser_list])
+创建并返回一个SAX XMLReader对象，第一个解析器会被使用。
+如果提供了parser_list，它必须是一个模块名字的队列，每个模块都必须要有一个叫做create_parser()的方法。在parser_list中列举到的模块会被优先使用。
+
+xml.sax.parser(filename_or_stream, handler[,error_handler])
+创建一个SAX解析器并且使用它来解析文档。文档通过filename_or_stream来传递，可以为文件名字或者文件对象。handler参数是一个SAX ContentHandler对象。如果给出了err_handler，它必须是一个SAX ErrorHandler对象。如果忽略了，所有错误都会调用SAXParseException。
+这个函数没有返回值，传入的handler会干完所有工作。
+
+xml.sax.parseString(string, handler[,error_handler])
+与parse()相同，但是从缓冲string读取文档。
+
+一个典型的SAX应用使用三种对象：readers、handlers和input sources。
+这里说的Reader是parser的另外一个术语。他是一些代码，用来从input source收到数据，并产生一个事件序列。
+这些事件会被分配给handler对象，也就是说，reader调用handler上的方法。
+一个SAX程序必须包含一个reader对象，用来创建或者打开input sources。创建handler，把这些对象串联在一起。
+作为准备工作的最后一步，reader被调用来解析input。在解析时，基于由输入数据获得的结构和语法事件，调用handler对象上的方法。
+
+对于这些对象，只有接口相关，他们通常不会被应用本身实例化。因为Python没有一个明显的接口的概念。他们最初作为类型引入，但是应用可以使用不从提供的这些类型中继承来的实现。在模块xml.sax.xmlreader中定义了InputSource、Locator、Attributes、AttributesNS和XMLReader接口。在模块xml.sax.handler中定义了handler的接口。为了便利，在xml.sax中也能访问到常常被实例化的InputSource和handler类型。
+
+
+xml.sax.handler，SAX handlers的基本类型
+
+SAX API定义了四种handler：内容handler、DTDhandler、错误handler和entity resolvers。应用一般只需要实现这些接口中他们感兴趣的部分；可以在一个对象或者多个对象中实现这些接口。handler的实现应该从模块xml.sax.handler提供的基本类型中继承，这样所有方法都有默认的实现。
+
+类xml.sax.handler.ContentHandler
+这在SAX中是一个主要也是最重要的一个回调函数接口。这个接口中事件的顺序映射了文档中信息的顺序。
+
+类xml.sax.handler.DTDHandler
+处理DTD事件。这个接口只指定基础解析需要的DTD事件。
+
+类xml.sax.handler.EntityResolver
+处理实体的基本接口。如果你新建一个对象并实现这个接口，然后在你的解析器中注册这些对象。解析器会在你的对象中调用方法用来处理外部实体。
+
+类xml.sax.handler.ErrorHandler
+被解析器用来展示错误和警告信息的接口。这个对象的方法控制了错误是立即会被转化为异常还是用其他的方式处理。
+
+ContentHandler对象：
+
+用户应继承ContentHandler。下列的方法会在解析输入文档的合适事件时被调用。
+
+ContentHandler.setDocumentLocator(locator)
+会被解析器调用用来提供给应用一个地址来定位文档事件的起源。
+SAX解析器强烈建议提供这个定位，如果提供了，在调用其他任何DocumentHandler 接口的方法前，它必须调用这个函数以给应用一个地址。
+
+ContentHandler.startDocument()
+当遭遇文档的开始时，收到通知。
+SAX解析器只会调用它一次，并且是在任何在这个接口或者DTDhandler之前。
+
+ContentHandler.endDocument()
+到遭遇文档的结尾时，收到通知
+SAX解析器只会调用它一次，并且是在解析期间最后一个调用它。当遇到不可修复的错误或者到达input的末端时，才会调用。
+
+ContentHandler.startPrefixMapping(prefix, uri)
+
+ContentHandler.endPrefixMapping(prefix)
+
+ContentHandler.startElement(name, attrs)
+在非命名空间模式下遭遇元素时启动。
+name参数用string保存了XML元素的名称，而attr则保存了元素的属性。用来保存attrs的对象可能被解析器重用，所以使用引用保存他们是不可靠的。建议使用copy()
+
+ContentHandler.endElement(name)
+在非命名空间模式下遭遇元素结尾时启动。
+name参数用string保存了XML元素的名称。
+
+ContentHandler.startElementNS(name, qname, attrs)
+在命名空间模式下遭遇元素时启动。
+name参数使用元组(url, localname)保存了元素的前缀以及元素的名称，qname保存了在源文档中使用的名称。attrs参数保存了一个使用AttributesNS接口的对象。保存了元素的属性。如果这个元素没有名称空间相关，则uri为None。
+解析器也许会把qname置为None，除非feature_namespace_prefixes特性被启动。
+
+ContentHandler.endElementNS(name, qname)
+在命名空间模式下遭遇元素结束时启动。
+name参数及qname参数同startElementNS。
+
+ContentHandler.characters(content)
+当接受到字符数据的时候启动。
+解析器每碰到一块字符数据，就会启动该方法。SAX解析器可能会在一个块中返回连续的字符串，也可能会把他分为几个块。所有在一个单一事件中的字符必须从同一个外部实体获得这样Locator才能提供了有用的信息。
+content也许是Unicode字符串或者是字节字符串。expat reader模块永远生成Unicode字符串。
+
+ContentHandler.ignorableWhitespace(whitespace)
+在元素内容中遇到可忽略的空格时启动。
+有效的解析器必须会在遇到每块可以忽略的空格时启动该方法。
+
+ContentHandler.processingInstruction(target, data)
+当收到正在处理的指令的时候启动。
+解析器每次找到一个正在处理的指令时候会调用该方法。
+
+ContentHanlder.skippedEntity(name)
+遭遇一个跳过实体的时候启动。
+
+xml.sax.xmlreader————XML解析器的接口
+SAX解析器实现了XMLReader接口，他们在一个Python模块中实现，这个模块提供了一个create_parser()函数。create_parser()会被xml.sax.make_parser()调用，不附加任何参数，返回一个解析器对象。
+
+类xml.sax.xmlreader.XMLReader
+被SAX解析器继承的基类
+
+类xml.sax.xmlreader.IncrementalParser
+一些情况下，我们希望一次解析几个文档而不是一次解析一个输入源。
+需要注意的是，reader通常不会读取整个文件，而是分块读取它。parse()知道整个文档已经处理过之后才会返回。所以当不希望parse()阻塞的话，应该使用这个接口。
+
+类xml.sax.xmlreader.Locator
+使用文档位置来联系SAX事件的接口。一个位置对象只会在调用DocumentHandler方法的时候返回合适的值。其他任何时候，结果都是不可预料的。
+
+类xml.sax.xmlreader.InputSource([systemid])
+把XMLReader用来读取实体的信息进行包装。
+这个类可能包括公共标识符、系统标识符、字节流或者实体的字符流。
+应用会创建一个在XMLReader.parse()方法中使用的对象
+
+inputsource属于应用，XMLReader不允许修改InputSource对象。
+
+类xml.sax.xmlreader.AttributesImpl(attrs)
+这是一个Attributes接口的实现，这是一个类似字典的对象。
+
+类xml.sax.xmlreader.AttributesNSImpl(attrs, qnames)
+命名空间敏感的AttributesImpl
+
+XMLReader Objects
+
+XMLReader接口支持下列方法：
+XMLReader.parse(source)
+处理一个输入源，产生SAX事件。source对象可以是一个系统标识符（比如文件名或者URL），也可以是类似文件的对象，或是一个InputSource对象。
+当parse()返回，输入已经被完全处理了，parser可以被丢弃或者重置。
+当前的实现只能接受字节流，字符流还没有完成。
+
+XMLReader.getContentHandler()
+返回当前的ContentHandler
+
+XMLReader.setContentHandler(handler)
+设置当前的ContentHandler
+
+XMLReader.getDTDHandler()
+返回当前的DTDHandler
+
+XMLReader.setDTDHandler()
+设置当前的ContentHandler
+
+XMLReader.getEntityResolver()
+返回当前的EntityResolver
+
+XMLReader.setEntityResolver()
+设置当前的EntityResolver
+
+XMLReader.getErrorHandler()
+返回当前的ErrorHandler
+
+XMLReader.setErrorHandler()
+设置当前的ErrorHandler
+
+XMLReader.setLocale(locale)
+允许一个应用设置错误和警告的场所
+
+类xml.sax.saxutils.XMLGenerator([out[, encoding]])
+这个类通过把SAX事件写回到XML实现了ContentHandler接口。也可以说，像使用Content handler一样使用XMLGenerator会解析原始文档。out是一个类似文件的对象，默认是sys.stdout。

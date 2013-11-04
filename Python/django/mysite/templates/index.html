@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html class="index" lang="zh-CN">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Vin的实验站">
+		<title>{{title}}</title>
+		<link href="/static/item.css" type="text/css" rel="stylesheet">
+	</head>
+	<body>
+		<div style="text-align:left; margin:0px auto; padding-top:0px; width: 898px;">
+			<div style="background-image:url(/static/newdesign-top.png); width: 898px; height:87px;"></div>
+			<div style="background-image:url(/static/newdesign-middle.png); width: 898px; background-repeat:repeat-y;">
+				<div name = "main" style="width:804px; top:-37px; left:88px; position:relative;">
+					<h1 id = "headImg">
+						<a href="/test2/"></a>
+					</h1>
+					<form action = "/test2/article/" method = "get">
+						<fieldset>
+							<legend>今天怎么样？来记录一下吧！</legend>
+							text:<input type = "text" name = "text" style="width:500px, height= 300px;">
+							submit:<button type = "summit" value = "Search" style="width:120px height:36px;">
+						</fieldset>
+					</form>
+					<div style="width:500px">
+						<h1>{{head}}</h1>
+						<div class="author">{{author}}</div>
+						<div class="date">{{date}}</div>
+						{% for p in text%}
+						<p>{{p}}</p>
+						{% endfor %}
+					</div>
+				</div>
+			</div>
+			<div style="background-image:url(/static/newdesign-bottom.png); width: 898px; height:88px; position:relative; top:-12px"></div>
+		</div>
+	</body>
+</html>

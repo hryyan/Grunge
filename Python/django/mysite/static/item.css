@@ -1,0 +1,122 @@
+/*为大多数元素设置 0 padding和 0 margin*/
+body, div, dl, dt, dd, h1, h2, h3, h4, h5, h5, pre, form, fieldset, input, textarea, blockquote, th, td, button{
+	padding: 0px;
+	margin: 0px;
+}
+
+/*为背景设定颜色，字体对齐*/
+body{
+	background-color: rgb(245, 244, 223);
+	text-align: center;
+	font: 0.93em/1.5 Verdana, Arial, "微软雅黑";
+}
+
+/*表格外部单线条，表格内容之间无间隔*/
+table{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*表单列和图片外部无边框无颜色*/
+fieldset, img{
+	border: 0 none;
+}
+
+/*为不常用的几种标签定义了初始值*/
+address, caption, cite, code, dfn, strong, th, var{
+	font-style: normal;
+	font-weight: normal;
+}
+
+/*为标题提供字体的初始值*/
+h1, h2, h3, h4, h5, h6{
+	font-size: 100%;
+	font-weight: normal;
+}
+
+/*引用标签两边应有"标记，但可以理解成它是使用CSS来实现的，在此处content为空，则引用标签两边没有"标记*/
+q:before, q:after{
+	content: "";
+}
+
+/*为p, ol, ul, blockquote设置字体、行高、下外边距和上外边距*/
+p, ol, ul, blockquote{
+	font-family: Georgia, Serif;
+	font-size: 110%;
+	line-height: 130%;
+	margin-bottom: 1em;
+	margin-top: 0;
+	word-wrap: break-word;
+}
+
+/*块引用的字体大小和内边距*/
+blockquote{
+	font-size: 95%;
+	padding: 0.2em;
+}
+
+/*为标题、作者名、编辑日期定制式样*/
+h1, div.author, div.date{
+	color:#046380;
+	font-family: Georgia, serif;
+	font-size: 2.2em;
+}
+
+/*作者名，斜体*/
+div.author{
+	font-size: 1.1em;
+	font-style: italic;
+	font-weight: normal;
+}
+
+/*日期*/
+div.date{
+	font-size: 0.8em;
+	font-weight: normal;
+	margin-top: 3em;
+	margin-bottom: 1em;
+}
+
+/*右侧悬浮图像*/
+span.side img{
+	border: 1px solid #666666;
+}
+
+/*右侧悬浮图像*/
+span.side{
+	float: right;
+	margin-bottom: 1ex;
+	margin-left: -232px;
+	margin-top: 1ex;
+	padding-left: 2em;
+	position: relative;
+	right: -238px;
+}
+
+a:link{
+	color:#3377AA;
+	text-decoration: none;
+}
+
+#headImg{
+	background: url("/static/header.png") no-repeat scroll 0 0 transparent;
+	display: inline-block;
+	width: 804px;
+	height: 298px;
+	overflow: hidden;
+	vertical-align: middle;
+	left: -40px;
+	position: relative;
+}
+
+#headImg a{
+	display: block;
+	width: 804px;
+	height: 298px;
+}
+
+#headImg a:active, #headImg a:hover{
+	background: none repeat scroll 0 0 transparent;
+}
+
+#main h1, h2, h3,

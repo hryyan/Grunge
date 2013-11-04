@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Result</title>
+	<script language="JavaScript"> 
+		function post(URL){
+			var emails = document.getElementById("emails").innerHTML;
+			var links = document.getElementById("links").innerHTML;
+    		var temp = document.createElement("form");      
+    		temp.action = URL;      
+    		temp.method = "get";      
+    		temp.style.display = "none";      
+
+        	var opt1 = document.createElement("textarea");
+        	opt1.name = 'Emails';
+        	opt1.value = emails;
+        	temp.appendChild(opt1);
+
+        	var opt2 = document.createElement("textarea");
+        	opt2.name = 'Links';
+        	opt2.value = links;
+        	temp.appendChild(opt2);
+
+    		document.body.appendChild(temp);
+    		temp.submit();
+    		return temp;
+		}
+	</script>
+	</head>
+	<body style="background-color: rgb(245, 244, 223); vtext-align: center; font: 0.93em/1.5 Verdana, Arial, "微软雅黑";">
+		<div style="text-align:left; margin:0px auto; padding-top:50px; width: 900px;">
+			<button type="summit" style="margin: 5px; width:90px; height:30px" onclick="post('/test2/exporttxt/');"/>输出Txt
+		</div>
+		<div style="text-align:left; margin:0px auto; padding-top:50px; width: 900px;">
+		<div style="text-align:left; margin:0px auto; padding-top:50px; width: 450px; float:left; clean:both;">
+		<p id="emails">
+		{% for p in result %}
+		{{p}}</br>
+		{% endfor %}
+		</div>
+		<div style="text-align:left; margin:0px auto; padding-top:50px; width: 450px; float:left;">
+		<p id="links">
+		{% for p in link%}
+		<a href="{{p}}">Link</a></br>
+		{% endfor %}
+		</p>
+		</div>
+	</div>
+	</body>
+</html>

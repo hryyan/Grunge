@@ -1,0 +1,51 @@
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>GetMail</title>
+	<style type="text/css">
+	body{
+		background-color:
+		rgb(245, 244, 223);
+		vtext-align: center;
+		font: 0.93em/1.5 Verdana,
+		Arial, "微软雅黑";
+	}
+	p{
+		margin: 10px 15px 10px 15px;
+	}
+	input.te{
+		margin:10px 35px 0px 20px;
+		padding-top:0px;
+		width:250px;
+		height:25px;
+	}
+	input.ra{
+		margin-left: 0px;
+		margin-top: 20px;
+		padding: 0px;
+	}
+	</style>
+</head>
+	<body>
+		<div style="text-align:left; margin:0px auto; padding-top:0px; width: 898px;">
+		<form action = "/test2/result/" method="get" style="margin:0px auto; padding-top:30px; width: 400px">
+			<fieldset style="width:420; height: 210px;">
+				<legend>GetMail</legend>
+			<div style="float:left" >
+				<p>Keyword:</p><p>Mail:</p><p>Num:</p>
+			</div>
+			<div style="float:left; clean:right;">
+				<input type="text" name="keyword" class="te" placeholder="输入要搜索的关键字"/></br>
+				<input type="text" name="mail" class="te" placeholder="若留空则读取search.txt文件"/></br>
+				<input type="text" name="num" class="te" placeholder="输入要检索的条目数量"/><br/>
+			</div>
+			<div>
+				<input type="radio" name="mode" value="fromgooglesites" class="ra"/>From Google Sites
+				<input type="radio" name="mode" value="fromothersites" class="ra"/>From Other Sites</br>
+				<button type="summit" style="margin: 10px 120px; width:90px; height:30px"/>Search
+			</div>
+			</fieldset>
+		</form>
+	</div>
+	</body>
+</html>

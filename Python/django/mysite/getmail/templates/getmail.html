@@ -1,0 +1,71 @@
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>GetMail</title>
+	<style type="text/css">
+	body{
+		background-color:
+		rgb(245, 244, 223);
+		vtext-align: center;
+		font: 0.93em/1.5 Verdana,
+		Arial, "微软雅黑";
+	}
+	p{
+		margin: 12px 15px 10px 15px;
+	}
+	input.te{
+		margin:10px 35px 0px 20px;
+		padding-top:0px;
+		width:220px;
+		height:25px;
+	}
+	input.ra{
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-top: 20px;
+		padding: 0px;
+	}
+	</style>
+</head>
+	<body>
+		<div style="text-align:left; margin:0px auto; padding-top:0px; width: 898px;">
+		<form action = "/test2/result/" method="get" style="margin:0px auto; padding-top:30px; width: 400px">
+			<fieldset style="width:420; height: 280px;">
+				<legend>GetMail</legend>
+			<div style="float:left" >
+				<p>关键字:</p><p>邮箱地址:</p><p>检索数量:</p><p>线程数量:</p><p>超时时间:</p>
+			</div>
+			<div style="float:left; clean:right;">
+				<input type="text" name="keyword" class="te" placeholder="输入要搜索的关键字"/></br>
+				<input type="text" name="mail" class="te" placeholder="若留空则读取search.txt文件"/></br>
+				<input type="text" name="num" class="te" placeholder="输入要检索的条目数量或范围"/><br/>
+				<input type="text" id="threadnum" name="threadnum" class="te" placeholder="请输入线程数，留空则为10"/><br/>
+				<input type="text" id="timeout" name="timeout" class="te" placeholder="请输入超时时间，留空则为0.5秒"/><br/>
+			</div>
+			<div style="float:left;">
+				<input type="radio" name="mode" value="fromgooglesites" class="ra" onclick="disableinput()" checked=true/>抓取Google页面
+				<input type="radio" name="mode" value="fromothersites" class="ra" onclick="enableinput()"/>抓取检索链接</br>
+			</div>
+				<button type="summit" style="margin: 10px 130px 10px 115px; width:90px; height:30px"/>Search
+			</fieldset>
+		</form>
+	</div>
+	<script>
+	function disableinput()
+	{
+		document.getElementById('threadnum').value="不可用";
+		document.getElementById('threadnum').disabled=true;
+		document.getElementById('timeout').value="不可用";
+		document.getElementById('timeout').disabled=true;
+	}
+	function enableinput()
+	{
+		document.getElementById('threadnum').value="";
+		document.getElementById('threadnum').disabled=false;
+		document.getElementById('timeout').value="";
+		document.getElementById('timeout').disabled=false;
+	}
+	disableinput();
+	</script>
+	</body>
+</html>

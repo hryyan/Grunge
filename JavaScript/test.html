@@ -1,0 +1,21 @@
+<html>
+<head>
+<script>
+function fun()
+{
+document.getElementById('field2').value=document.getElementById('field1').value
+}
+</script>
+</head>
+<body>
+
+Field1: <input type="text" id="field1" value="Hello World!">
+<br />
+Field2: <input type="text" id="field2">
+<br /><br />
+Click the button below to copy the content of Field1 to Field2.
+<br />
+<input type="radio" onclick="fun()">Copy Text</button>
+
+</body>
+</html>

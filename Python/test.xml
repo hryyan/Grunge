@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<waf>
+    <policy> acl </policy>
+        <f:prot xmlns:f="http://www.w3.org/TR/html4/">
+                <dstip>2.2.2.2</dstip>
+                <dstip>3.3.3.3</dstip>
+                <dstport>80</dstport>
+                <srcip>3.3.3.3</srcip>
+                <srcport>8888</srcport>            
+                <protocol>17</protocol>
+        </f:prot>
+    <other haha="google.com" test_case_id="1" >
+        <action>0</action>
+        <dstip>33333333</dstip>
+        <res>0</res>
+        <res a="b" b="2" >0</res>
+        <res a="c" b="3" c="4" >88</res>
+        <res a="b" b="2" >0</res>
+        
+    </other>
+    <other heihei="google.com" test_case_id2="2" >
+        <res a="b" b="2" >0</res>
+    </other>
+    <other heihei3="baidu.com" test_case_id3="3" >
+        <res a="c" b="3">88</res>
+        <dd gg = "pengwei" >wpw</dd>
+    </other>    
+    <m>
+            <w>
+                    <dd gg = "dongmei" >wpw</dd>
+            </w>
+    </m>
+    <rule ID="18612269" value="\x22" />
+</waf>

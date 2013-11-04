@@ -1,0 +1,5 @@
+(define (pro n)
+  (cond ((< n 3) n)
+        (else (+ (pro (- n 1))
+                 (* 2 (pro (- n 2)))
+                 (* 3 (pro (- n 3)))))))

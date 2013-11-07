@@ -9,7 +9,6 @@ __int64 gcd(__int64 a, __int64 b)
 		a = b;
 		b = c;
 	}
-	;;
 	while(b)
 	{
 		c = b;

@@ -1,0 +1,10 @@
+(define (repeated f num)
+  (define (func g a num)
+    (if (> num 0)
+        (g (func g a (- num 1)))
+        a))
+        
+  (lambda (x)
+    (if (> num 0)
+        (func f x num)
+        0)))

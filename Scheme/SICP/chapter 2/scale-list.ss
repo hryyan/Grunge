@@ -1,0 +1,5 @@
+(define (scale-list items factor)
+  (if (null? items)
+      (list)
+      (cons (* (car items) factor)
+            (scale-list (cdr items) factor))))

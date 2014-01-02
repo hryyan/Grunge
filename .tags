@@ -4,7 +4,8 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags (PN2 Edition)	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.6	//
-1	.\Python\basic.py	/^	class 1 object$/;"	c
+1	.\Python\basic.py	/^    class 1 object$/;"	c
+A	.\ACM\Uva_11292.c	/^int A[maxn], B[maxn];$/;"	v
 A	.\Python\django\analyze\utils\notyet\dateformat.py	/^    def A(self):$/;"	m	class:TimeFormat
 ALT	.\Python\include\metagrammar.h	11;"	d
 ALTSEP	.\Python\include\osdefs.h	16;"	d
@@ -42,6 +43,7 @@ AugAssign	.\Python\include\Python-ast.h	399;"	d
 AugAssign_kind	.\Python\include\Python-ast.h	/^                  Delete_kind=4, Assign_kind=5, AugAssign_kind=6, Print_kind=7,$/;"	e	enum:_stmt_kind
 AugLoad	.\Python\include\Python-ast.h	/^typedef enum _expr_context { Load=1, Store=2, Del=3, AugLoad=4, AugStore=5,$/;"	e	enum:_expr_context
 AugStore	.\Python\include\Python-ast.h	/^typedef enum _expr_context { Load=1, Store=2, Del=3, AugLoad=4, AugStore=5,$/;"	e	enum:_expr_context
+B	.\ACM\Uva_11292.c	/^int A[maxn], B[maxn];$/;"	v
 B	.\Python\django\analyze\utils\notyet\dateformat.py	/^    def B(self):$/;"	m	class:TimeFormat
 BACKQUOTE	.\Python\include\token.h	37;"	d
 BASE	.\Python\include\longintrepr.h	68;"	d
@@ -141,6 +143,8 @@ Context	.\Python\basic.py	/^class Context(object):$/;"	c
 Continue	.\Python\include\Python-ast.h	447;"	d
 Continue_kind	.\Python\include\Python-ast.h	/^                  Break_kind=22, Continue_kind=23};$/;"	e	enum:_stmt_kind
 ConvertToASCII	.\Python\site-packages\pyHook-1.5.1\cpyHook_wrap.c	/^  unsigned short ConvertToASCII(unsigned int keycode, unsigned int scancode) {$/;"	f
+Crawler	.\Python\YoukuAssist\main.py	/^class Crawler(object):/;"	c
+Crawler	.\Python\mechanize_beautiful.py	/^class Crawler(object):$/;"	c
 CreateGLWindow	.\C++\OpenGL\Lesson1.cpp	/^BOOL CreateGLWindow(char* title, int width, int height, int bits, bool fullscreenflag)$/;"	f
 D	.\Python\django\analyze\utils\notyet\dateformat.py	/^    def D(self):$/;"	m	class:DateFormat
 DATETIME_API_MAGIC	.\Python\include\datetime.h	165;"	d
@@ -7959,6 +7963,7 @@ IMPORT_FROM	.\Python\include\opcode.h	107;"	d
 IMPORT_NAME	.\Python\include\opcode.h	106;"	d
 IMPORT_STAR	.\Python\include\opcode.h	78;"	d
 INDENT	.\Python\include\token.h	17;"	d
+INF	.\ACM\basic_freopen.c	3;"	d	file:
 INPLACE_ADD	.\Python\include\opcode.h	48;"	d
 INPLACE_AND	.\Python\include\opcode.h	71;"	d
 INPLACE_DIVIDE	.\Python\include\opcode.h	51;"	d
@@ -8043,6 +8048,7 @@ LOAD_FAST	.\Python\include\opcode.h	124;"	d
 LOAD_GLOBAL	.\Python\include\opcode.h	117;"	d
 LOAD_LOCALS	.\Python\include\opcode.h	76;"	d
 LOAD_NAME	.\Python\include\opcode.h	99;"	d
+LOCAL	.\ACM\basic_freopen.c	1;"	d	file:
 LOCAL	.\Python\include\symtable.h	80;"	d
 LONG_BIT	.\Python\include\pyconfig.h	75;"	d
 LONG_BIT	.\Python\include\pyport.h	877;"	d
@@ -8152,6 +8158,8 @@ Name	.\Python\include\Python-ast.h	502;"	d
 Name_kind	.\Python\include\Python-ast.h	/^                  Subscript_kind=19, Name_kind=20, List_kind=21, Tuple_kind=22};$/;"	e	enum:_expr_kind
 NewInput	.\Python\include\cStringIO.h	/^  PyObject *(*NewInput)(PyObject *);$/;"	m	struct:PycStringIO_CAPI
 NewOutput	.\Python\include\cStringIO.h	/^  PyObject *(*NewOutput)(int);$/;"	m	struct:PycStringIO_CAPI
+NextPage	.\Python\YoukuAssist\main.py	/^    def NextPage(self):/;"	m	class:Crawler
+NextPage	.\Python\mechanize_beautiful.py	/^    def NextPage(self):$/;"	m	class:Crawler
 NoArgNoReturnFunction	.\Python\include\py_curses.h	116;"	d
 NoArgNoReturnVoidFunction	.\Python\include\py_curses.h	162;"	d
 NoArgOrFlagNoReturnFunction	.\Python\include\py_curses.h	122;"	d
@@ -11138,6 +11146,9 @@ Pow	.\Python\include\Python-ast.h	/^typedef enum _operator { Add=1, Sub=2, Mult=
 Print	.\Python\include\Python-ast.h	/^                } Print;$/;"	m	union:_stmt::__anon64	typeref:struct:_stmt::__anon64::__anon71
 Print	.\Python\include\Python-ast.h	402;"	d
 Print_kind	.\Python\include\Python-ast.h	/^                  Delete_kind=4, Assign_kind=5, AugAssign_kind=6, Print_kind=7,$/;"	e	enum:_stmt_kind
+Process	.\Python\YoukuAssist\main.py	/^    def Process(self):/;"	m	class:Crawler
+Process	.\Python\mechanize_beautiful.py	/^    def Process(self):$/;"	m	class:Crawler
+ProcessPages	.\Python\YoukuAssist\main.py	/^    def ProcessPages(self, num):/;"	m	class:Crawler
 Promise	.\Python\django\analyze\utils\functional.py	/^class Promise(object):$/;"	c
 PyAPI_DATA	.\Python\include\pyport.h	763;"	d
 PyAPI_DATA	.\Python\include\pyport.h	780;"	d
@@ -13867,7 +13878,7 @@ __WGLEW_OML_sync_control	.\C++\OpenGL\wglew.h	/^WGLEW_EXPORT GLboolean __WGLEW_O
 __X_GL_H	.\C++\OpenGL\glew.h	95;"	d
 __add__	.\Python\django\analyze\utils\notyet\safestring.py	/^    def __add__(self, rhs):$/;"	m	class:SafeString	file:
 __add__	.\Python\django\analyze\utils\notyet\safestring.py	/^    def __add__(self, rhs):$/;"	m	class:SafeUnicode	file:
-__call__	.\Python\basic.py	/^	def __call__(self):$/;"	m	class:MyClass	file:
+__call__	.\Python\basic.py	/^    def __call__(self):$/;"	m	class:MyClass	file:
 __call__	.\Python\example\Threads\threading module_2.py	/^    def __call__(self):$/;"	m	class:ThreadFunc	file:
 __call__	.\Python\mywebserver\webserver.py	/^    def __call__(self, environ, start_response):$/;"	m	class:WSGIPathInfoDispatcher	file:
 __cmp__	.\Python\django\analyze\utils\functional.py	/^        def __cmp__(self, rhs):$/;"	m	class:__proxy__	file:
@@ -13884,9 +13895,9 @@ __del__	.\Python\site-packages\pyHook-1.5.1\HookManager.py	/^  def __del__(self)
 __del__	.\Python\site-packages\pyHook-1.5.1\build\lib.win32-2.7\pyHook\HookManager.py	/^  def __del__(self):$/;"	m	class:HookManager	file:
 __delitem__	.\Python\django\analyze\utils\datastructures.py	/^    def __delitem__(self, key):$/;"	m	class:SortedDict	file:
 __delitem__	.\Python\mywebpy\utils.py	/^    def __delitem__(self, key):$/;"	m	class:ThreadDict	file:
-__dir__	.\Python\basic.py	/^	def __dir__(self):$/;"	m	class:MyStr	file:
-__enter__	.\Python\basic.py	/^	def __enter__(self):$/;"	m	class:Context	file:
-__exit__	.\Python\basic.py	/^	def __exit__(self, exc_type, exc_val, traceback):$/;"	m	class:Context	file:
+__dir__	.\Python\basic.py	/^    def __dir__(self):$/;"	m	class:MyStr	file:
+__enter__	.\Python\basic.py	/^    def __enter__(self):$/;"	m	class:Context	file:
+__exit__	.\Python\basic.py	/^    def __exit__(self, exc_type, exc_val, traceback):$/;"	m	class:Context	file:
 __getattr__	.\Python\basic.py	/^	def __getattr__(self, name):$/;"	m	class:chicken	file:
 __getattr__	.\Python\django\analyze\utils\functional.py	/^    def __getattr__(self, name):$/;"	m	class:LazyObject	file:
 __getitem__	.\Python\django\analyze\utils\datastructures.py	/^    def __getitem__(self, key):$/;"	m	class:DictWrapper	file:
@@ -15843,16 +15854,17 @@ __init__	.\Python\WinAccessSQL\win32access.py	/^    def __init__(self, SQL_list,
 __init__	.\Python\WinAccessSQL\win32access.py	/^    def __init__(self, parent = None):$/;"	m	class:MainDialog
 __init__	.\Python\WinAccessSQL\win32access.py	/^    def __init__(self, string, parent = None):$/;"	m	class:CheckBox
 __init__	.\Python\YoukuAssist\main.py	/^    def __init__(self, parent = None):/;"	m	class:MyTableView
-__init__	.\Python\basic.py	/^	def __init__(self):$/;"	m	class:Context
-__init__	.\Python\basic.py	/^	def __init__(self):$/;"	m	class:MyClass
-__init__	.\Python\basic.py	/^	def __init__(self):$/;"	m	class:MyStr
-__init__	.\Python\basic.py	/^	def __init__(self):$/;"	m	class:MyThread
-__init__	.\Python\basic.py	/^	def __init__(self, age):$/;"	m	class:chicken
-__init__	.\Python\basic.py	/^	def __init__(self, arg):$/;"	m	class:MyClass
-__init__	.\Python\basic.py	/^	def __init__(self, data):$/;"	m	class:MyClass
-__init__	.\Python\basic.py	/^	def __init__(self, value):$/;"	m	class:MyClass
-__init__	.\Python\basic.py	/^	def __init__(self, x):$/;"	m	class:int_modify
+__init__	.\Python\YoukuAssist\main.py	/^    def __init__(self, url, pattern):/;"	m	class:Crawler
+__init__	.\Python\basic.py	/^    def __init__(self):$/;"	m	class:Context
+__init__	.\Python\basic.py	/^    def __init__(self):$/;"	m	class:MyClass
+__init__	.\Python\basic.py	/^    def __init__(self):$/;"	m	class:MyStr
+__init__	.\Python\basic.py	/^    def __init__(self):$/;"	m	class:MyThread
 __init__	.\Python\basic.py	/^    def __init__(self):$/;"	m	class:c
+__init__	.\Python\basic.py	/^    def __init__(self, age):$/;"	m	class:chicken
+__init__	.\Python\basic.py	/^    def __init__(self, arg):$/;"	m	class:MyClass
+__init__	.\Python\basic.py	/^    def __init__(self, data):$/;"	m	class:MyClass
+__init__	.\Python\basic.py	/^    def __init__(self, value):$/;"	m	class:MyClass
+__init__	.\Python\basic.py	/^    def __init__(self, x):$/;"	m	class:int_modify
 __init__	.\Python\clipboard_systray.py	/^	def __init__(self):$/;"	m	class:Window
 __init__	.\Python\clipboard_systray.py	/^	def __init__(self, num):$/;"	m	class:Stack
 __init__	.\Python\django\analyze\encoding.py	/^    def __init__(self, obj, *args):$/;"	m	class:DjangoUnicodeDecodeError
@@ -15880,6 +15892,7 @@ __init__	.\Python\example\Threads\mtfacfib.py	/^    def __init__(self, func, arg
 __init__	.\Python\example\Threads\prodcons.py	/^    def __init__(self, func, args, name = ''):$/;"	m	class:MyThread
 __init__	.\Python\example\Threads\threading module_2.py	/^    def __init__(self, func, args, name = ''):$/;"	m	class:ThreadFunc
 __init__	.\Python\example\Threads\threading module_3.py	/^    def __init__(self, func, args, name = ''):$/;"	m	class:MyThread
+__init__	.\Python\mechanize_beautiful.py	/^    def __init__(self, url, pattern):$/;"	m	class:Crawler
 __init__	.\Python\mywebpy\application.py	/^    def __init__(self, mapping, fvars):$/;"	m	class:application
 __init__	.\Python\mywebpy\utils.py	/^    def __init__(self):$/;"	m	class:ThreadDict
 __init__	.\Python\mywebserver\test.py	/^    def __init__(self):$/;"	m	class:ClassName
@@ -15901,7 +15914,7 @@ __init__	.\Python\site-packages\pyHook-1.5.1\build\lib.win32-2.7\pyHook\HookMana
 __init__	.\Python\site-packages\pyHook-1.5.1\build\lib.win32-2.7\pyHook\HookManager.py	/^  def __init__(self, msg, x, y, data, flags, time, hwnd, window_name):$/;"	m	class:MouseEvent
 __init__	.\Python\site-packages\pyHook-1.5.1\build\lib.win32-2.7\pyHook\aa hook.py	/^  def __init__(self):$/;"	m	class:myFrame
 __init__	.\Python\xml.sax.py	/^	def __init__(self, out):$/;"	m	class:Handler
-__iter__	.\Python\basic.py	/^	def __iter__(self):$/;"	m	class:MyClass	file:
+__iter__	.\Python\basic.py	/^    def __iter__(self):$/;"	m	class:MyClass	file:
 __iter__	.\Python\django\analyze\utils\datastructures.py	/^    def __iter__(self):$/;"	m	class:SortedDict	file:
 __iter__	.\Python\mywebserver\webserver.py	/^    def __iter__(self):$/;"	m	class:SizeCheckWrapper	file:
 __len__	.\Python\django\analyze\utils\tree.py	/^    def __len__(self):$/;"	m	class:Node	file:
@@ -16130,7 +16143,7 @@ a	.\Python\django\analyze\utils\notyet\dateformat.py	/^    def a(self):$/;"	m	cl
 a_arrow	.\Python\include\grammar.h	/^    short	a_arrow;	\/* State where this arc goes to *\/$/;"	m	struct:__anon36
 a_lbl	.\Python\include\grammar.h	/^    short	a_lbl;		\/* Label of this arc *\/$/;"	m	struct:__anon36
 active	.\C++\OpenGL\Lesson1.cpp	/^bool	active=TRUE;					\/\/绐楀彛鐨勬椿鍔ㄦ爣蹇楋紝缂虹渷涓篢RUE$/;"	v
-add	.\Python\basic.py	/^	def add(x, y): return x + y$/;"	f
+add	.\Python\basic.py	/^    def add(x, y):$/;"	f
 add	.\Python\basic.py	/^def add(x, y):$/;"	f
 add	.\Python\django\analyze\utils\tree.py	/^    def add(self, node, conn_type):$/;"	m	class:Node
 addQuickElement	.\Python\django\analyze\utils\xmlutils.py	/^    def addQuickElement(self, name, contents=None, attrs=None):$/;"	m	class:SimplerXMLGenerator
@@ -16221,6 +16234,10 @@ bf_getreadbuffer	.\Python\include\object.h	/^    readbufferproc bf_getreadbuffer
 bf_getsegcount	.\Python\include\object.h	/^    segcountproc bf_getsegcount;$/;"	m	struct:__anon48
 bf_getwritebuffer	.\Python\include\object.h	/^    writebufferproc bf_getwritebuffer;$/;"	m	struct:__anon48
 bf_releasebuffer	.\Python\include\object.h	/^    releasebufferproc bf_releasebuffer;$/;"	m	struct:__anon48
+bign	.\ACM\bign.c	/^    bign()$/;"	f	struct:bign
+bign	.\ACM\bign.c	/^    bign(const char* num) {*this = num;}$/;"	f	struct:bign
+bign	.\ACM\bign.c	/^    bign(int num) { *this = num; }$/;"	f	struct:bign
+bign	.\ACM\bign.c	/^struct bign$/;"	s	file:
 binaryfunc	.\Python\include\object.h	/^typedef PyObject * (*binaryfunc)(PyObject *, PyObject *);$/;"	t
 bird	.\Python\basic.py	/^class bird(object):$/;"	c
 bitset	.\Python\include\bitset.h	/^typedef BYTE *bitset;$/;"	t
@@ -16292,6 +16309,7 @@ charatatime	.\C\UNIX\Chapter8.c	/^static void charatatime(char *str)$/;"	f	file:
 charbufferproc	.\Python\include\object.h	/^typedef Py_ssize_t (*charbufferproc)(PyObject *, Py_ssize_t, char **);$/;"	t
 charbufferproc	.\Python\site-packages\pyHook-1.5.1\cpyHook_wrap.c	/^typedef getcharbufferproc charbufferproc;$/;"	t	file:
 chicken	.\Python\basic.py	/^class chicken(bird):$/;"	c
+child_make	.\C\processor_pool_service.c	/^pid_t child_make (int i)$/;"	f
 chooseKeyword	.\Python\WinAccessSQL\win32access.py	/^    def chooseKeyword(self):$/;"	m	class:MainDialog
 cl_bases	.\Python\include\classobject.h	/^    PyObject	*cl_bases;	\/* A tuple of class objects *\/$/;"	m	struct:__anon6
 cl_context	.\C++\OpenGL\glew.h	/^typedef struct _cl_context *cl_context;$/;"	t	typeref:struct:_cl_context
@@ -16304,6 +16322,7 @@ cl_setattr	.\Python\include\classobject.h	/^    PyObject	*cl_setattr;$/;"	m	stru
 cl_weakreflist	.\Python\include\classobject.h	/^    PyObject    *cl_weakreflist; \/* List of weak references *\/$/;"	m	struct:__anon6
 classdef	.\Python\include\graminit.h	76;"	d
 classify0	.\Python\Machine_Learning\KNN.py	/^def classify0(inX, dataSet, labels, k):$/;"	f
+clean	.\ACM\bign.c	/^    void clean()$/;"	f	struct:bign
 clean_html	.\Python\django\analyze\utils\notyet\html.py	/^def clean_html(text):$/;"	f
 clear	.\Python\clipboard_systray.py	/^	def clear(self):$/;"	m	class:Window
 clear	.\Python\django\analyze\utils\datastructures.py	/^    def clear(self):$/;"	m	class:SortedDict
@@ -16385,10 +16404,7 @@ ctx	.\Python\include\Python-ast.h	/^                        expr_context_ty ctx;
 ctx	.\Python\include\Python-ast.h	/^                        expr_context_ty ctx;$/;"	m	struct:_expr::__anon85::__anon105
 ctx	.\Python\include\Python-ast.h	/^                        expr_context_ty ctx;$/;"	m	struct:_expr::__anon85::__anon106
 ctx	.\Python\include\Python-ast.h	/^                        expr_context_ty ctx;$/;"	m	struct:_expr::__anon85::__anon107
-cub	.\Scheme\SICP\chapter 1\cube-iter.scm	/^(define (cub x)$/;"	f
 cube	.\Python\basic.py	/^def cube(x):$/;"	f
-cube	.\Scheme\SICP\chapter 1\cube-iter.scm	/^(define (cube x)$/;"	f
-cube-iter	.\Scheme\SICP\chapter 1\cube-iter.scm	/^(define (cube-iter guess x)$/;"	f
 curexc_traceback	.\Python\include\pystate.h	/^    PyObject *curexc_traceback;$/;"	m	struct:_ts
 curexc_type	.\Python\include\pystate.h	/^    PyObject *curexc_type;$/;"	m	struct:_ts
 curexc_value	.\Python\include\pystate.h	/^    PyObject *curexc_value;$/;"	m	struct:_ts
@@ -16425,7 +16441,7 @@ decorator_list	.\Python\include\Python-ast.h	/^                        asdl_seq 
 decorators	.\Python\include\graminit.h	7;"	d
 defaults	.\Python\include\Python-ast.h	/^        asdl_seq *defaults;$/;"	m	struct:_arguments
 defenc	.\Python\include\unicodeobject.h	/^    PyObject *defenc;           \/* (Default) Encoded version as Python$/;"	m	struct:__anon122
-delVal	.\Python\basic.py	/^	def delVal(self):$/;"	m	class:MyClass
+delVal	.\Python\basic.py	/^    def delVal(self):$/;"	m	class:MyClass
 del_stmt	.\Python\include\graminit.h	20;"	d
 delargs	.\Python\site-packages\pyHook-1.5.1\cpyHook_wrap.c	/^  int delargs;$/;"	m	struct:__anon124	file:
 delbitset	.\Python\include\pgenheaders.h	23;"	d
@@ -16515,7 +16531,7 @@ exprlist	.\Python\include\graminit.h	73;"	d
 f	.\C++\example.cpp	/^    int f;$/;"	m	class:Example	file:
 f	.\C++\example.cpp	/^    int f[100];$/;"	m	class:Example2	file:
 f	.\C++\example.cpp	/^    int* f;$/;"	m	class:Example3	file:
-f	.\Python\basic.py	/^	def f(self):$/;"	m	class:MyClass
+f	.\Python\basic.py	/^    def f(self):$/;"	m	class:MyClass
 f	.\Python\basic.py	/^def f():$/;"	f
 f	.\Python\basic.py	/^def f(x):$/;"	f
 f	.\Python\django\analyze\utils\notyet\dateformat.py	/^    def f(self):$/;"	m	class:TimeFormat
@@ -16556,12 +16572,11 @@ fac	.\Python\example\Extension\Extest1.c	/^int fac(int n)$/;"	f
 fac	.\Python\example\Extension\Extest2.c	/^int fac(int n)$/;"	f
 fac	.\Python\example\Threads\mtfacfib.py	/^def fac(x):$/;"	f
 factor	.\Python\include\graminit.h	63;"	d
-factorial	.\Scheme\SICP\chapter 1\factorial.scm	/^(define (factorial n)$/;"	f
 false	.\Python\include\asdl.h	/^typedef enum {false, true} bool;$/;"	e	enum:__anon1
-fdel	.\Python\basic.py	/^	    def fdel(self):$/;"	m	class:MyClass
+fdel	.\Python\basic.py	/^        def fdel(self):$/;"	m	class:MyClass
 ff_features	.\Python\include\compile.h	/^    int ff_features;      \/* flags set by future statements *\/$/;"	m	struct:__anon11
 ff_lineno	.\Python\include\compile.h	/^    int ff_lineno;        \/* line number of last future statement *\/$/;"	m	struct:__anon11
-fget	.\Python\basic.py	/^	    def fget(self):$/;"	m	class:MyClass
+fget	.\Python\basic.py	/^        def fget(self):$/;"	m	class:MyClass
 fib	.\Python\example\Threads\mtfacfib.py	/^def fib(x):$/;"	f
 fib	.\Python\example\fibo\fibo.py	/^def fib(n):$/;"	f
 fib2	.\Python\example\fibo\fibo.py	/^def fib2(n):$/;"	f
@@ -16581,7 +16596,7 @@ flags	.\Python\include\structmember.h	/^    int flags;$/;"	m	struct:PyMemberDef
 flags	.\Python\include\structmember.h	/^    int flags;$/;"	m	struct:memberlist
 flatten_result	.\Python\django\analyze\utils\notyet\regex_helper.py	/^def flatten_result(source):$/;"	f
 flow_stmt	.\Python\include\graminit.h	22;"	d
-foo	.\Python\basic.py	/^	def foo():$/;"	m	class:MyClass
+foo	.\Python\basic.py	/^    def foo():$/;"	m	class:MyClass
 for_stmt	.\Python\include\graminit.h	42;"	d
 force_unicode	.\Python\django\analyze\encoding.py	/^def force_unicode(s, encoding='utf-8', strings_only=False, errors='strict'):$/;"	f
 force_unicode	.\Python\django\analyze\utils\encoding.py	/^def force_unicode(s, encoding='utf-8', strings_only=False, errors='strict'):$/;"	f
@@ -16593,7 +16608,7 @@ fplist	.\Python\include\graminit.h	13;"	d
 frame	.\Python\include\pystate.h	/^    struct _frame *frame;$/;"	m	struct:_ts	typeref:struct:_ts::_frame
 freefunc	.\Python\include\object.h	/^typedef void (*freefunc)(void *);$/;"	t
 freefunc	.\Python\site-packages\pyHook-1.5.1\cpyHook_wrap.c	/^typedef destructor freefunc;$/;"	t	file:
-fset	.\Python\basic.py	/^	    def fset(self, value):$/;"	m	class:MyClass
+fset	.\Python\basic.py	/^        def fset(self, value):$/;"	m	class:MyClass
 fullpath	.\C\UNIX\Chapter4.c	/^static char *fullpath;$/;"	v	file:
 fullpath	.\C\UNIX\iter_all_file.c	/^static char *fullpath;  \/\/ contains full pathname for every file$/;"	v	file:
 fullscreen	.\C++\OpenGL\Lesson1.cpp	/^bool	fullscreen=TRUE;				\/\/ 鍏ㄥ睆鏍囧織缂虹渷锛岀己鐪佽瀹氭垚鍏ㄥ睆妯″紡$/;"	v
@@ -16624,7 +16639,6 @@ gc_next	.\Python\include\objimpl.h	/^        union _gc_head *gc_next;$/;"	m	stru
 gc_prev	.\Python\include\objimpl.h	/^        union _gc_head *gc_prev;$/;"	m	struct:_gc_head::__anon50	typeref:union:_gc_head::__anon50::_gc_head
 gc_refs	.\Python\include\objimpl.h	/^        Py_ssize_t gc_refs;$/;"	m	struct:_gc_head::__anon50
 gcd	.\ACM\5.c	/^__int64 gcd(__int64 a, __int64 b)$/;"	f
-gcd	.\ACM\6(vincent-PC被冲突后的备份 2013-09-13-07-24-25).c	/^int gcd(int a, int b)$/;"	f
 gcd	.\ACM\6.c	/^int gcd(int a, int b)$/;"	f
 gen	.\Python\django\analyze\utils\itercompat.py	/^    def gen(next, data={}, cnt=[0]):$/;"	f
 generater	.\Python\django\mysite\back\getmail\main.py	/^def generater(list_suffix):$/;"	f
@@ -16638,13 +16652,13 @@ get	.\Python\django\analyze\utils\datastructures.py	/^    def get(self, key, def
 get	.\Python\django\analyze\utils\datastructures.py	/^    def get(self, key, default=None):$/;"	m	class:MultiValueDict
 get	.\Python\include\descrobject.h	/^    getter get;$/;"	m	struct:PyGetSetDef
 get	.\Python\mywebpy\utils.py	/^    def get(self, key, default=None):$/;"	m	class:ThreadDict
-getAdult	.\Python\basic.py	/^	def getAdult(self):$/;"	m	class:chicken
+getAdult	.\Python\basic.py	/^    def getAdult(self):$/;"	m	class:chicken
 getClipboardText	.\Python\clipboard.py	/^def getClipboardText():$/;"	f
 getInfo	.\Python\YoukuAssist\main.py	/^def getInfo():/;"	f
 getPrime	.\ACM\Prime.c	/^int getPrime(int max, int* vec, int mode)$/;"	f
 getResult	.\Python\example\Threads\mtfacfib.py	/^    def getResult(self):$/;"	m	class:MyThread
 getResult	.\Python\example\Threads\prodcons.py	/^    def getResult(self):$/;"	m	class:MyThread
-getVal	.\Python\basic.py	/^	def getVal(self):$/;"	m	class:MyClass
+getVal	.\Python\basic.py	/^    def getVal(self):$/;"	m	class:MyClass
 get_attr	.\Python\site-packages\pyHook-1.5.1\cpyHook_wrap.c	/^    PyObject *(*get_attr)(void);       \/* Return the current value *\/$/;"	m	struct:swig_globalvar	file:
 get_cache_key	.\Python\django\analyze\utils\notyet\cache.py	/^def get_cache_key(request, key_prefix=None):$/;"	f
 get_environ	.\Python\mywebserver\webserver.py	/^    def get_environ(self):$/;"	m	class:WSGIGateway
@@ -18630,9 +18644,9 @@ global_stmt	.\Python\include\graminit.h	36;"	d
 globals	.\Python\include\Python-ast.h	/^                        expr_ty globals;$/;"	m	struct:_stmt::__anon64::__anon82
 gluErrorStringWIN	.\C++\OpenGL\GLU.H	55;"	d
 gluErrorStringWIN	.\C++\OpenGL\GLU.H	57;"	d
-good-enough?	.\Scheme\SICP\chapter 1\cube-iter.scm	/^(define (good-enough? guess x)$/;"	f
 good-enough?	.\Scheme\SICP\chapter 1\sqrt-iter.scm	/^(define (good-enough? guess x)$/;"	f
 grammar	.\Python\include\grammar.h	/^} grammar;$/;"	t	typeref:struct:__anon39
+grayscale	.\Python\pil_grayscale.py	/^def grayscale(image_path):$/;"	f
 group	.\Python\mywebpy\utils.py	/^def group(seq, size):$/;"	f
 groupby	.\Python\django\analyze\utils\itercompat.py	/^def groupby(iterable, keyfunc=None):$/;"	f
 h	.\Python\django\analyze\utils\notyet\dateformat.py	/^    def h(self):$/;"	m	class:TimeFormat
@@ -18684,7 +18698,6 @@ import_curses	.\Python\include\py_curses.h	99;"	d
 import_from	.\Python\include\graminit.h	30;"	d
 import_name	.\Python\include\graminit.h	29;"	d
 import_stmt	.\Python\include\graminit.h	28;"	d
-improve	.\Scheme\SICP\chapter 1\cube-iter.scm	/^(define (improve y x)$/;"	f
 improve	.\Scheme\SICP\chapter 1\sqrt-iter.scm	/^(define (improve guess x)$/;"	f
 in_class	.\Python\include\classobject.h	/^    PyClassObject *in_class;	\/* The class object *\/$/;"	m	struct:__anon7
 in_dict	.\Python\include\classobject.h	/^    PyObject	  *in_dict;	\/* A dictionary *\/$/;"	m	struct:__anon7
@@ -18785,12 +18798,13 @@ lb_type	.\Python\include\grammar.h	/^    int		 lb_type;$/;"	m	struct:__anon34
 learn_cache_key	.\Python\django\analyze\utils\notyet\cache.py	/^def learn_cache_key(request, response, cache_timeout=None, key_prefix=None):$/;"	f
 left	.\Python\include\Python-ast.h	/^                        expr_ty left;$/;"	m	struct:_expr::__anon85::__anon87
 left	.\Python\include\Python-ast.h	/^                        expr_ty left;$/;"	m	struct:_expr::__anon85::__anon98
+len	.\ACM\bign.c	/^    int len, s[maxn];$/;"	m	struct:bign	file:
 len	.\Python\include\object.h	/^    Py_ssize_t len;$/;"	m	struct:bufferinfo
 lenfunc	.\Python\include\object.h	/^typedef Py_ssize_t (*lenfunc)(PyObject *);$/;"	t
 lenfunc	.\Python\site-packages\pyHook-1.5.1\cpyHook_wrap.c	/^typedef inquiry lenfunc;$/;"	t	file:
 length	.\Python\include\unicodeobject.h	/^    Py_ssize_t length;          \/* Length of raw Unicode data in buffer *\/$/;"	m	struct:__anon122
 level	.\Python\include\Python-ast.h	/^                        int level;$/;"	m	struct:_stmt::__anon64::__anon81
-line	.\Python\basic.py	/^	def line(x):$/;"	f
+line	.\Python\basic.py	/^    def line(x):$/;"	f
 line_conf	.\Python\basic.py	/^def line_conf():$/;"	f
 line_conf	.\Python\basic.py	/^def line_conf(a, b):$/;"	f
 linebreaks	.\Python\django\analyze\utils\notyet\html.py	/^def linebreaks(value, autoescape=False):$/;"	f
@@ -18835,12 +18849,15 @@ ma_table	.\Python\include\dictobject.h	/^    PyDictEntry *ma_table;$/;"	m	struct
 ma_used	.\Python\include\dictobject.h	/^    Py_ssize_t ma_used;  \/* # Active *\/$/;"	m	struct:_dictobject
 magic	.\Python\include\pyexpat.h	/^    char* magic; \/* set to PyExpat_CAPI_MAGIC *\/$/;"	m	struct:PyExpat_CAPI
 main	.\ACM\5.c	/^int main(int argc, char const *argv[])$/;"	f
-main	.\ACM\6(vincent-PC被冲突后的备份 2013-09-13-07-24-25).c	/^int main(void)$/;"	f
 main	.\ACM\6.c	/^int main(void)$/;"	f
 main	.\ACM\6_1.c	/^int main()$/;"	f
 main	.\ACM\7.c	/^int main(void)$/;"	f
 main	.\ACM\Prime.c	/^int main()$/;"	f
+main	.\ACM\Uva_11292.c	/^int main()$/;"	f
 main	.\ACM\Wooden Sticks.c	/^int main(int argc, char const *argv[])$/;"	f
+main	.\ACM\basic_freopen.c	/^int main()$/;"	f
+main	.\ACM\basic_time.c	/^int main()$/;"	f
+main	.\ACM\test.c	/^int main()$/;"	f
 main	.\C++\example.cpp	/^int main()$/;"	f
 main	.\C++\hello world.cpp	/^int main()$/;"	f
 main	.\C\UNIX\Chapter3.c	/^int main(int argc, char* argv[])$/;"	f
@@ -18863,6 +18880,7 @@ main	.\C\UNIX\replace.h	/^int main(int argc, char*argv[])$/;"	f
 main	.\C\UNIX\test.c	/^int main(int argc, char* argv[])$/;"	f
 main	.\C\UNIX\testForAque.c	/^int main(int argc, char const *argv[])$/;"	f
 main	.\C\hello world.c	/^int main()$/;"	f
+main	.\C\processor_pool_service.c	/^int main(int argc, char **argv)$/;"	f
 main	.\Python\Code Marathon\StandardChartered.py	/^def main():$/;"	f
 main	.\Python\django\analyze\utils\autoreload.py	/^def main(main_func, args=None, kwargs=None):$/;"	f
 main	.\Python\example\Extension\Extest1.c	/^int main(int argc, char const *argv[])$/;"	f
@@ -18880,6 +18898,8 @@ make_style	.\Python\django\analyze\utils\notyet\termcolors.py	/^def make_style(o
 mark_for_escaping	.\Python\django\analyze\utils\notyet\safestring.py	/^def mark_for_escaping(s):$/;"	f
 mark_safe	.\Python\django\analyze\utils\notyet\safestring.py	/^def mark_safe(s):$/;"	f
 mask	.\Python\include\setobject.h	/^    Py_ssize_t mask;$/;"	m	struct:_setobject
+maxn	.\ACM\Uva_11292.c	/^const int maxn = 20000 + 5;$/;"	v
+maxn	.\ACM\bign.c	/^const int maxn = 1000;$/;"	v
 maxy	.\ACM\6_1.c	/^int maxy(int m,int n)$/;"	f
 md5hash	.\Python\Login_qq_mail\login_qq_mail.py	/^def md5hash(str):$/;"	f
 md5hash	.\Python\Login_qq_mail\login_qq_mail_1.py	/^def md5hash(str):$/;"	f
@@ -19009,6 +19029,7 @@ nblk	.\C\UNIX\Chapter4.c	/^static long nreg, ndir, nblk, nchr, nfifo, nslink, ns
 nblk	.\C\UNIX\iter_all_file.c	/^static long nreg, ndir, nblk, nchr, nfifo, nslink, nsock, ntot;$/;"	v	file:
 nbytes	.\Python\include\objimpl.h	/^PyAPI_FUNC(void *) _PyMem_DebugMalloc(size_t nbytes);$/;"	v
 nbytes	.\Python\include\objimpl.h	/^PyAPI_FUNC(void *) _PyObject_DebugMalloc(size_t nbytes);$/;"	v
+nchildren	.\C\processor_pool_service.c	/^static  int      nchildren;$/;"	v	file:
 nchr	.\C\UNIX\Chapter4.c	/^static long nreg, ndir, nblk, nchr, nfifo, nslink, nsock, ntot;$/;"	v	file:
 nchr	.\C\UNIX\iter_all_file.c	/^static long nreg, ndir, nblk, nchr, nfifo, nslink, nsock, ntot;$/;"	v	file:
 ndim	.\Python\include\object.h	/^    int ndim;$/;"	m	struct:bufferinfo
@@ -19022,7 +19043,7 @@ newbitset	.\Python\include\pgenheaders.h	28;"	d
 newfunc	.\Python\include\object.h	/^typedef PyObject *(*newfunc)(struct _typeobject *, PyObject *, PyObject *);$/;"	t
 newgrammar	.\Python\include\pgenheaders.h	29;"	d
 newraw	.\Python\site-packages\pyHook-1.5.1\cpyHook_wrap.c	/^  PyObject *newraw;$/;"	m	struct:__anon124	file:
-next	.\Python\basic.py	/^	def next(self):$/;"	m	class:MyClass
+next	.\Python\basic.py	/^    def next(self):$/;"	m	class:MyClass
 next	.\Python\include\pystate.h	/^    struct _is *next;$/;"	m	struct:_is	typeref:struct:_is::_is
 next	.\Python\include\pystate.h	/^    struct _ts *next;$/;"	m	struct:_ts	typeref:struct:_ts::_ts
 next	.\Python\mywebserver\webserver.py	/^    def next(self):$/;"	m	class:SizeCheckWrapper
@@ -19109,6 +19130,9 @@ openColor	.\Python\example\PyQt4\example2.py	/^    def openColor(self):$/;"	m	cl
 openFile	.\Python\example\PyQt4\example2.py	/^    def openFile(self):$/;"	m	class:StandardDialog
 openFont	.\Python\example\PyQt4\example2.py	/^    def openFont(self):$/;"	m	class:StandardDialog
 operand	.\Python\include\Python-ast.h	/^                        expr_ty operand;$/;"	m	struct:_expr::__anon85::__anon88
+operator	.\ACM\bign.c	/^    bign operator = (const char* num)$/;"	m	struct:bign	file:
+operator	.\ACM\bign.c	/^istream& operator >> (istream &in, bign &x)$/;"	f	struct:bign
+operator	.\ACM\bign.c	/^ostream& operator << (ostream &out, const bign &x)$/;"	f	struct:bign
 operator_ty	.\Python\include\Python-ast.h	/^                         operator_ty;$/;"	t	typeref:enum:_operator
 ops	.\Python\include\Python-ast.h	/^                        asdl_int_seq *ops;$/;"	m	struct:_expr::__anon85::__anon98
 optional_vars	.\Python\include\Python-ast.h	/^                        expr_ty optional_vars;$/;"	m	struct:_stmt::__anon64::__anon75
@@ -19133,6 +19157,7 @@ perrdetail	.\Python\include\parsetok.h	/^} perrdetail;$/;"	t	typeref:struct:__an
 pgen	.\Python\include\pgenheaders.h	30;"	d
 phone2numeric	.\Python\django\analyze\utils\notyet\text.py	/^def phone2numeric(phone):$/;"	f
 pid_t	.\Python\include\pyconfig.h	/^typedef int pid_t;$/;"	t
+pids	.\C\processor_pool_service.c	/^static  pid_t    *pids;$/;"	v	file:
 pop	.\Python\django\analyze\utils\datastructures.py	/^    def pop(self, k, *args):$/;"	m	class:SortedDict
 pop	.\Python\mywebpy\utils.py	/^    def pop(self, key, *args):$/;"	m	class:ThreadDict
 popitem	.\Python\django\analyze\utils\datastructures.py	/^    def popitem(self):$/;"	m	class:SortedDict
@@ -19213,16 +19238,18 @@ rfc2822_date	.\Python\django\analyze\utils\feedgenerator.py	/^def rfc2822_date(d
 rfc3339_date	.\Python\django\analyze\utils\feedgenerator.py	/^def rfc3339_date(date):$/;"	f
 richcmpfunc	.\Python\include\object.h	/^typedef PyObject *(*richcmpfunc) (PyObject *, PyObject *, int);$/;"	t
 right	.\Python\include\Python-ast.h	/^                        expr_ty right;$/;"	m	struct:_expr::__anon85::__anon87
+roll	.\Python\reverse_picture.py	/^def roll(filename):$/;"	f
 root_attributes	.\Python\django\analyze\utils\feedgenerator.py	/^    def root_attributes(self):$/;"	m	class:Atom1Feed
 root_attributes	.\Python\django\analyze\utils\feedgenerator.py	/^    def root_attributes(self):$/;"	m	class:SyndicationFeed
 rss_attributes	.\Python\django\analyze\utils\feedgenerator.py	/^    def rss_attributes(self):$/;"	m	class:RssFeed
-run	.\Python\basic.py	/^	def run(self):$/;"	m	class:MyThread
+run	.\Python\basic.py	/^    def run(self):$/;"	m	class:MyThread
 run	.\Python\django\mysite\back\getmail\mythread.py	/^    def run(self):$/;"	m	class:myThread
 run	.\Python\django\mysite\getmail\mythread.py	/^    def run(self):$/;"	m	class:myThread
 run	.\Python\example\Threads\mtfacfib.py	/^    def run(self):$/;"	m	class:MyThread
 run	.\Python\example\Threads\prodcons.py	/^    def run(self):$/;"	m	class:MyThread
 run	.\Python\example\Threads\threading module_3.py	/^    def run(self):$/;"	m	class:MyThread
 run	.\Python\mywebserver\webserver.py	/^    def run(self):$/;"	m	class:Worker
+s	.\ACM\bign.c	/^    int len, s[maxn];$/;"	m	struct:bign	file:
 s	.\Python\django\analyze\utils\notyet\dateformat.py	/^    def s(self):$/;"	m	class:TimeFormat
 s	.\Python\include\Python-ast.h	/^                        string s;$/;"	m	struct:_expr::__anon85::__anon102
 s_accel	.\Python\include\grammar.h	/^    int		*s_accel;	\/* Accelerator *\/$/;"	m	struct:__anon37
@@ -19251,7 +19278,7 @@ setNum	.\Python\clipboard_systray.py	/^	def setNum(self, num):$/;"	m	class:Windo
 setNum_10	.\Python\clipboard_systray.py	/^	def setNum_10(self):$/;"	m	class:Window
 setNum_3	.\Python\clipboard_systray.py	/^	def setNum_3(self):$/;"	m	class:Window
 setNum_5	.\Python\clipboard_systray.py	/^	def setNum_5(self):$/;"	m	class:Window
-setVal	.\Python\basic.py	/^	def setVal(self, value):$/;"	m	class:MyClass
+setVal	.\Python\basic.py	/^    def setVal(self, value):$/;"	m	class:MyClass
 set_attr	.\Python\site-packages\pyHook-1.5.1\cpyHook_wrap.c	/^    int       (*set_attr)(PyObject *); \/* Set the value *\/$/;"	m	struct:swig_globalvar	file:
 set_fl	.\C\UNIX\Chapter3.c	/^void set_fl(int fd, int flags)$/;"	f
 setattrfunc	.\Python\include\object.h	/^typedef int (*setattrfunc)(PyObject *, char *, PyObject *);$/;"	t
@@ -19268,6 +19295,7 @@ shape	.\Python\include\object.h	/^    Py_ssize_t *shape;$/;"	m	struct:bufferinfo
 shift_expr	.\Python\include\graminit.h	60;"	d
 showMessage	.\Python\clipboard_systray.py	/^	def showMessage(self, index):$/;"	m	class:Window
 showtree	.\Python\include\pgenheaders.h	35;"	d
+sig_int	.\C\processor_pool_service.c	/^void sig_int(int signo)$/;"	f
 simple_stmt	.\Python\include\graminit.h	15;"	d
 single_input	.\Python\include\graminit.h	3;"	d
 size	.\Python\include\asdl.h	/^    int size;$/;"	m	struct:__anon2
@@ -19310,10 +19338,8 @@ sq_item	.\Python\include\object.h	/^    ssizeargfunc sq_item;$/;"	m	struct:__ano
 sq_length	.\Python\include\object.h	/^    lenfunc sq_length;$/;"	m	struct:__anon46
 sq_repeat	.\Python\include\object.h	/^    ssizeargfunc sq_repeat;$/;"	m	struct:__anon46
 sq_slice	.\Python\include\object.h	/^    ssizessizeargfunc sq_slice;$/;"	m	struct:__anon46
-sqrt	.\Scheme\SICP\chapter 1\all-in-one.scm	/^(define (sqrt x)$/;"	f
 sqrt	.\Scheme\SICP\chapter 1\sqrt-iter.scm	/^(define (sqrt x)$/;"	f
 sqrt-iter	.\Scheme\SICP\chapter 1\sqrt-iter.scm	/^(define (sqrt-iter guess x)$/;"	f
-square	.\Scheme\SICP\chapter 1\cube-iter.scm	/^(define (square x)$/;"	f
 square	.\Scheme\SICP\chapter 1\sqrt-iter.scm	/^(define (square x)$/;"	f
 src	.\Python\include\longintrepr.h	/^PyAPI_FUNC(PyObject *) _PyLong_Copy(PyLongObject *src);$/;"	v
 ssize_t	.\Python\include\pyconfig.h	/^typedef _W64 int ssize_t;$/;"	t
@@ -19346,6 +19372,8 @@ start_subtree	.\Python\django\analyze\utils\tree.py	/^    def start_subtree(self
 state	.\Python\include\grammar.h	/^} state;$/;"	t	typeref:struct:__anon37
 staticforward	.\Python\include\object.h	876;"	d
 statichere	.\Python\include\object.h	877;"	d
+std	.\ACM\Uva_11292.c	/^using namespace std;$/;"	v
+std	.\ACM\bign.c	/^using namespace std;$/;"	v
 ste_child_free	.\Python\include\symtable.h	/^    unsigned ste_child_free : 1;  \/* true if a child block has free vars,$/;"	m	struct:_symtable_entry
 ste_children	.\Python\include\symtable.h	/^    PyObject *ste_children;  \/* list of child ids *\/$/;"	m	struct:_symtable_entry
 ste_free	.\Python\include\symtable.h	/^    unsigned ste_free : 1;        \/* true if block has free variables *\/$/;"	m	struct:_symtable_entry

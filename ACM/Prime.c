@@ -49,14 +49,14 @@ int getPrime(int max, int* vec, int mode)
 	return num;
 }
 
-int main()
-{
-	int v[1000];
-	int i, j;
-	j = getPrime(1000, v, 2);
+// int main()
+// {
+// 	int v[1000];
+// 	int i, j;
+// 	j = getPrime(1000, v, 2);
 
-	for (int i = 0; i < j; ++i)
-	{
-		printf("%d is %d in %d nums\n", v[i], i + 1, j);
-	}
-}
+// 	for (int i = 0; i < j; ++i)
+// 	{
+// 		printf("%d is %d in %d nums\n", v[i], i + 1, j);
+// 	}
+// }

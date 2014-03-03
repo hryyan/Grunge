@@ -1,0 +1,18 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<body>
+    <script language="JavaScript" type="text/javascript">
+    document.write("<h1>This is a heading</h1>")
+    document.write("<p id=\"demo\">This is a paragraph</p>")
+
+    x = function myFunction()
+    {
+        x=document.getElementById("demo")
+        x.innerHTML="Hello JavaScript!"
+    }
+    </script>
+    <button type="button" onclick="alert('Welcome!')">Here</button>
+    <button type="button" onclick="x()">Change InnerHTML</button>
+</body>
+</html>

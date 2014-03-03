@@ -1,9 +1,9 @@
-#include "bign.c"
+#include "bigNum.cpp"
 
 int main()
 {
-    bign a, b;
-    cin >> a >> b;
-    cout << a - b << endl;
+    bigNum a, b;
+    std::cin >> a >> b;
+    std::cout << a * b << std::endl;
     return 0;
 }

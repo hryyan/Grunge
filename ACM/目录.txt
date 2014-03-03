@@ -1,0 +1,18 @@
+8：小学生算术
+6174：6174问题，冒泡排序和检索
+11: Cantor数表
+12: 素因子相乘
+13: uva-10055-Hashmat the Brave Warrior
+14: hdu-The area
+15: 简单枚举-除法
+16: 简单枚举-最大乘法
+17: 分数拆解
+18: 双基回文数
+19: uva-11292-The Dragon of Loowater
+20: uva-10881-Piotr's Ants
+21: uva-11729-Commando War
+22: uva-11300-Spreading the Wealth
+23: NEERC 2006, LA 3708, Graveyard
+24：
+25：小球下落
+26：层次遍历

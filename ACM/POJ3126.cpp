@@ -56,14 +56,13 @@ bool diff(int a, int b)
     return false;
 }
 
-int bfs()
+int bfs(bool* hash, int size)
 {
     deque<P> deq;
-    bool hash[prime.size()];
-    memset(hash, false, sizeof(hash));
+    memset(hash, false, size);
 
     int i = 0;
-    for (i = 0; i < prime.size(); ++i)
+    for (i = 0; i < size; ++i)
         if (start == prime[i])
             break;
     deq.push_back(make_pair(i, 0));
@@ -76,13 +75,13 @@ int bfs()
 
         if (prime[a.first] == end)
             return a.second;
-        for (int j = 0; j < prime.size(); ++j)
+        for (int j = 0; j < size; ++j)
         {
             if (!hash[j] && diff(prime[a.first], prime[j]))
-                {
-                    hash[j] = true;
-                    deq.push_back(make_pair(j, a.second+1));
-                }
+            {
+                hash[j] = true;
+                deq.push_back(make_pair(j, a.second+1));
+            }
         }
     }
     return -1;
@@ -95,10 +94,13 @@ int main()
 
     scanf("%d", &n);
     generatePrime();
+    int size = prime.size();
+    bool hash[size];
+
     while (n--)
     {
         scanf("%d %d", &start, &end);
-        int res = bfs();
+        int res = bfs(hash, size);
         if (res == -1)
             printf("Impossible\n");
         else

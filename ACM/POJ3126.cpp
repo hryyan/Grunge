@@ -1,4 +1,5 @@
 #include <cstdio>
+#include <ctime>
 #include <cmath>
 #include <cstring>
 #include <vector>
@@ -20,7 +21,7 @@ typedef pair<int, int> P;
 
 bool isPrime(int a)
 {
-    for (int i = 2; i < sqrt(a); ++i)
+    for (int i = 2; i <= sqrt(a); ++i)
         if (a % i == 0)
             return false;
     return true;
@@ -80,6 +81,7 @@ int bfs(bool* hash, int size)
             if (!hash[j] && diff(prime[a.first], prime[j]))
             {
                 hash[j] = true;
+                // printf("%d %d\n", prime[a.first], prime[j]);
                 deq.push_back(make_pair(j, a.second+1));
             }
         }
@@ -90,7 +92,7 @@ int bfs(bool* hash, int size)
 int main()
 {
     // freopen("POJ3126.input", "r", stdin);
-    freopen("POJ3126.allsource", "r", stdin);
+    // freopen("POJ3126.allsource", "r", stdin);
 
     scanf("%d", &n);
     generatePrime();
@@ -102,7 +104,7 @@ int main()
         scanf("%d %d", &start, &end);
         int res = bfs(hash, size);
         if (res == -1)
-            printf("Impossible\n");
+            printf("0\n");
         else
             printf("%d\n", res);
     }

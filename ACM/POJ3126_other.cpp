@@ -10,7 +10,8 @@ int pathCount[10000];
 
 int main()
 {
-    freopen("POJ3126.allsource", "r", stdin);
+    // freopen("POJ3126.input", "r", stdin);
+    // freopen("POJ3126.allsource", "r", stdin);
 
     for ( int i = 0 ; i < 10000 ; i ++ )
         ifPrime[i] = true;

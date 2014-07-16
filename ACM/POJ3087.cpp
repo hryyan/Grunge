@@ -1,98 +1,71 @@
 #include <cstdio>
-#include <vector>
-using std::vector;
+#include <cstring>
+#include <string>
+#include <cstdlib>
+#include <set>
+using std::set;
+using std::strcmp;
+using std::string;
 
-const int MAXN = 150;
-vector<vector<int> > src;
-vector<vector<int> > dst;
-int map[8] = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'};
-vector<int> s_a, s_b, s_c, s_d, s_e, s_f, s_g, s_h;
-vector<int> d_a, d_b, d_c, d_d, d_e, d_f, d_g, d_h;
-src.push_back(s_a);
-src.push_back(s_b);
-src.push_back(s_c);
-src.push_back(s_d);
-src.push_back(s_e);
-src.push_back(s_f);
-src.push_back(s_g);
-src.push_back(s_h);
-dst.push_back(s_a);
-dst.push_back(s_b);
-dst.push_back(s_c);
-dst.push_back(s_d);
-dst.push_back(s_e);
-dst.push_back(s_f);
-dst.push_back(s_g);
-dst.push_back(s_h);
+const int MAXN = 500;
+char src[MAXN];
+char dst[MAXN];
+set<string> s;
 
-bool verify()
+void swap(char src[], int c)
 {
-    // 确认需要的牌在S1和S2中
-    for (int j = 0; j < 8; ++j)
+    char tmp[MAXN];
+    memset(tmp, 0, sizeof(char)*MAXN);
+    for (int i = 0; i < 2*c; ++i)
     {
-        if (src.at(j).size() != dst.at(j).size())
-            return false;
+        if (i < c)
+            tmp[2*i+1] = src[i];
+        else
+            tmp[2*(i-c)] = src[i];
     }
-    return true;
+    memcpy(src, tmp, MAXN*sizeof(char));
 }
 
 int main()
 {
-    freopen("POJ3087.input", "r", stdin);
+    // freopen("POJ3087.input", "r", stdin);
 
-    int n;
+    int n = 0;
     scanf("%d\n", &n);
-    for (int i = 1; i < n+1; ++i)
+    for (int l = 1; l < n+1; l++)
     {
-        s_a.clear();
-        s_b.clear();
-        s_c.clear();
-        s_d.clear();
-        s_e.clear();
-        s_f.clear();
-        s_g.clear();
-        s_h.clear();
-        d_a.clear();
-        d_b.clear();
-        d_c.clear();
-        d_d.clear();
-        d_e.clear();
-        d_f.clear();
-        d_g.clear();
-        d_h.clear();
-        int c = 0, offset = 0;
-        char str[MAXN];
-
-        // 读取第一行和第二行，第二行要加一个offset
+        bool on = false;
+        int c = 0, index = 0;
+        char ch = 0;
         scanf("%d\n", &c);
-        for (int j = 0; j < 2; ++j)
+        memset(src, 0, sizeof(char)*MAXN);
+        memset(dst, 0, sizeof(char)*MAXN);
+        while ((ch = getchar()) != '\n')
+            src[index++] = ch;
+        while ((ch = getchar()) != '\n')
+            src[index++] = ch;
+        index = 0;
+        while ((ch = getchar()) != '\n')
+            dst[index++] = ch;
+
+        s.clear();
+        int count = 0;
+        string a(src);
+        while (s.find(a) == s.end())
         {
-            scanf("%s", str);
-            int o = 0;
-            while (str[o] != '\n')
+            if (!strcmp(src, dst))
             {
-                for (int k = 0; k < 8; ++k)
-                    if (str[o] == map[k])
-                        src.at(k).push_back(offset+o);
-                o++;
+                printf("%d %d\n", l, count);
+                on = true;
+                break;
             }
-            offset = c;
+            s.insert(a);
+            swap(src, c);
+            a = string(src);
+            count++;
         }
-
-        // 读取结果
-        scanf("%s", str);
-        int o = 0;
-        while (str[0] != '\n')
-        {
-            for (int j = 0; j < 8; ++j)
-                if (str[o] == map[j])
-                    dst.at[j].push_back(o);
-            o++;
-        }
-        
-        if (!verify())
-            printf("%d -1\n", i);
-
-        
+        if (!on)
+            printf("%d -1\n", l);
     }
+    return 0;
 }

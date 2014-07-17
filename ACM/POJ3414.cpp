@@ -59,6 +59,8 @@ void bfs(bool a_first)
         P p = que.front();
         que.pop();
 
+        // printf("%s\n", p.str);
+
         if (p.a == c)
         {
             printf("%d", p.step);
@@ -137,6 +139,9 @@ void bfs(bool a_first)
             strcat(tmp, s2);
             filter(P(p.a, B, p.step+1, tmp));
         }
+
+        if (que.empty())
+            printf("impossible\n");
     }
 }
 

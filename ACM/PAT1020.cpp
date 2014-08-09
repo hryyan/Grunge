@@ -52,7 +52,7 @@ void levelOrder(Node* root)
     {
         Node* tmp = Q.front();
         Q.pop();
-        if (tmp == NULL);
+        if (tmp == NULL)
             return ;
         if (isFirst)
         {
@@ -72,7 +72,7 @@ void levelOrder(Node* root)
 
 int main()
 {
-    freopen("PAT1020.input", "r", stdin);
+    //freopen("PAT1020.input", "r", stdin);
 
     int N;
     cin >> N;
